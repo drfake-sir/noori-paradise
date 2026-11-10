@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-label="THE FESTIVE EDIT — couture illustration">
+<defs>
+  <linearGradient id="anarkalibg" x1="0" y1="0" x2=".9" y2="1">
+    <stop offset="0" stop-color="#F6E4DB"/><stop offset=".55" stop-color="#E8C3B7"/><stop offset="1" stop-color="#CE9B8E"/>
+  </linearGradient>
+  <radialGradient id="anarkalihalo" cx=".5" cy=".38" r=".6">
+    <stop offset="0" stop-color="#C9A45E" stop-opacity=".5"/>
+    <stop offset=".5" stop-color="#C9A45E" stop-opacity=".16"/>
+    <stop offset="1" stop-color="#C9A45E" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="anarkalifab" x1="0" y1="0" x2="1" y2=".2">
+    <stop offset="0" stop-color="#B06A62"/><stop offset=".18" stop-color="#EFC5B4"/><stop offset=".42" stop-color="#FFF4E8"/>
+    <stop offset=".62" stop-color="#EFC5B4"/><stop offset=".82" stop-color="#FFF4E8"/><stop offset="1" stop-color="#B06A62"/>
+  </linearGradient>
+  <linearGradient id="anarkalishade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity=".26"/><stop offset=".46" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity=".38"/>
+  </linearGradient>
+  <linearGradient id="anarkalisheen" x1="-.4" y1="0" x2=".2" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".46" stop-color="#fff" stop-opacity=".4"/>
+    <stop offset=".62" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="anarkaligold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#C9A45E" stop-opacity=".55"/><stop offset=".4" stop-color="#FFF1C6"/>
+    <stop offset=".68" stop-color="#C9A45E"/><stop offset="1" stop-color="#C9A45E" stop-opacity=".5"/>
+  </linearGradient>
+  <linearGradient id="anarkalidup" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFF" stop-opacity=".5"/><stop offset=".5" stop-color="#FFF4E8" stop-opacity=".34"/>
+    <stop offset="1" stop-color="#FFF" stop-opacity=".14"/>
+  </linearGradient>
+  <linearGradient id="anarkaliform" x1="0" y1="0" x2="1" y2=".3">
+    <stop offset="0" stop-color="#6B564E"/><stop offset=".42" stop-color="#C3AC9E"/><stop offset=".72" stop-color="#8B7264"/><stop offset="1" stop-color="#5C4840"/>
+  </linearGradient>
+  <radialGradient id="anarkalivel" cx=".34" cy=".2" r=".9">
+    <stop offset="0" stop-color="#fff" stop-opacity=".2"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity=".4"/>
+  </radialGradient>
+  <pattern id="anarkaliweave" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+    <line x1="0" y1="0" x2="0" y2="6" stroke="#FFF" stroke-opacity=".16" stroke-width=".7"/>
+    <line x1="3" y1="0" x2="3" y2="6" stroke="#000" stroke-opacity=".07" stroke-width=".6"/>
+  </pattern>
+  <pattern id="anarkalisequin" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(18)">
+    <circle cx="3" cy="3" r=".95" fill="#C9A45E" fill-opacity=".6"/>
+    <circle cx="7.5" cy="7.5" r=".6" fill="#FFF" fill-opacity=".55"/>
+  </pattern>
+  <filter id="anarkalisoft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="23"/></filter>
+  <filter id="anarkalishadow" x="-30%" y="-20%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="7" stdDeviation="11" flood-color="#000" flood-opacity=".22"/>
+  </filter>
+  <filter id="anarkaligrain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".86" numOctaves="3" stitchTiles="stitch" seed="19"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope=".14"/></feComponentTransfer>
+  </filter>
+</defs>
+<rect width="900" height="1200" fill="url(#anarkalibg)"/>
+<ellipse cx="450" cy="504" rx="468" ry="600" fill="url(#anarkalihalo)"/>
+<g opacity="0.5" fill="none" stroke="#C9A45E">
+    <path d="M171 1080V309.72A279 279 0 0 1 729 309.72V1080" stroke-width="1.2"/>
+    <path d="M181 1080V315.29999999999995A269 269 0 0 1 719 315.29999999999995V1080" stroke-width=".6" opacity=".6"/>
+  </g>
+<g opacity="0.42" stroke="#C9A45E" fill="none">
+    <circle cx="450" cy="90" r="10.8" stroke-width="1"/>
+    <path d="M450 64.8v12.6M450 102.6v12.6" stroke-width="1"/>
+    <path d="M90 192q22.5 24 45 0" stroke-width=".8"/>
+    <path d="M765 192q22.5 24 45 0" stroke-width=".8"/>
+  </g>
+<ellipse cx="450" cy="946.3870967741937" rx="216.77419354838713" ry="29.354838709677423" fill="#000" opacity="0.14" filter="url(#anarkalisoft)"/>
+<g transform="translate(224.2 138.0) scale(2.258)" filter="url(#anarkalishadow)">
+    <g class="np-form">
+    <path d="M94 40q0-5 6-5t6 5v16q15 3 24 15l8 25q4 16 2 35-2 20-8 33H68q-6-13-8-33-2-19 2-35l8-25q9-12 24-15z" fill="url(#anarkaliform)"/>
+    <path d="M95 53q5 3 10 0" fill="none" stroke="#FFF" stroke-opacity=".16" stroke-width="1"/>
+    <path d="M87 74q-5 34-5 68M113 74q5 34 5 68" fill="none" stroke="#FFF" stroke-opacity=".08" stroke-width="1"/>
+    <path d="M100 100v70" fill="none" stroke="#000" stroke-opacity=".2" stroke-width="1"/>
+    <circle cx="100" cy="35" r="3.6" fill="url(#anarkaligold)" opacity=".92"/>
+    <path d="M100 39v6" stroke="url(#anarkaligold)" stroke-width="1.4" opacity=".8"/>
+    <path d="M96 190h8v162h-8z" fill="url(#anarkaliform)" opacity=".9"/>
+    <ellipse cx="100" cy="354" rx="34" ry="7" fill="#000" opacity=".26"/>
+    <path d="M66 352h68M78 359h44" stroke="#000" stroke-opacity=".22" stroke-width="2"/>
+  </g>
+    <path d="M132 66Q178 140 172 292Q168 340 148 362Q162 250 128 120Z" fill="url(#anarkalidup)" opacity=".65"/>
+    <path d="M74 60Q88 76 100 76Q112 76 126 60L139 128Q184 242 186 340Q100 358 14 340Q16 242 61 128Z" fill="url(#anarkalifab)"/><path d="M74 60Q88 76 100 76Q112 76 126 60L139 128Q184 242 186 340Q100 358 14 340Q16 242 61 128Z" fill="url(#anarkalishade)" opacity=".46"/><path d="M74 60Q88 76 100 76Q112 76 126 60L139 128Q184 242 186 340Q100 358 14 340Q16 242 61 128Z" fill="url(#anarkalisheen)" opacity=".85"/><path d="M74 60Q88 76 100 76Q112 76 126 60L139 128Q184 242 186 340Q100 358 14 340Q16 242 61 128Z" fill="url(#anarkaliweave)" opacity=".6"/><path d="M74 60Q88 76 100 76Q112 76 126 60L139 128Q184 242 186 340Q100 358 14 340Q16 242 61 128Z" fill="url(#anarkalisequin)" opacity=".35"/><path d="M70 64Q54 72 46 108L58 112Q64 80 79 76Z" fill="url(#anarkalifab)"/><path d="M130 64Q146 72 154 108L142 112Q136 80 121 76Z" fill="url(#anarkalifab)"/><path d="M78 64Q100 88 122 64" fill="none" stroke="url(#anarkaligold)" stroke-width="1.7"/><path d="M61 128Q100 144 139 128" fill="none" stroke="url(#anarkaligold)" stroke-width="1.4"/><path d="M66 150Q100 164 134 150" fill="none" stroke="url(#anarkaligold)" stroke-width=".9" opacity=".7"/><path d="M100 132V352" fill="none" stroke="#FFF" stroke-opacity="0.3" stroke-width="0.9" stroke-linecap="round"/><path d="M86 138Q64 246 46 348" fill="none" stroke="#FFF" stroke-opacity="0.22" stroke-width="0.9" stroke-linecap="round"/><path d="M114 138Q136 246 154 348" fill="none" stroke="#FFF" stroke-opacity="0.22" stroke-width="0.9" stroke-linecap="round"/><path d="M78 142Q48 252 30 346" fill="none" stroke="#000" stroke-opacity="0.17" stroke-width="1.1" stroke-linecap="round"/><path d="M122 142Q152 252 170 346" fill="none" stroke="#000" stroke-opacity="0.17" stroke-width="1.1" stroke-linecap="round"/><path d="M94 134Q82 250 74 352" fill="none" stroke="#FFF" stroke-opacity="0.15" stroke-width="0.9" stroke-linecap="round"/><path d="M106 134Q118 250 126 352" fill="none" stroke="#FFF" stroke-opacity="0.15" stroke-width="0.9" stroke-linecap="round"/><path d="M18 324Q100 342 182 324L186 340Q100 358 14 340Z" fill="url(#anarkaligold)" opacity=".92"/><g transform="translate(38.8 332)" fill="none" stroke="#5C2032" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#5C2032" stroke="none"/>
+    </g><g transform="translate(56.3 332)" fill="none" stroke="#5C2032" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#5C2032" stroke="none"/>
+    </g><g transform="translate(73.8 332)" fill="none" stroke="#5C2032" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#5C2032" stroke="none"/>
+    </g><g transform="translate(91.3 332)" fill="none" stroke="#5C2032" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#5C2032" stroke="none"/>
+    </g><g transform="translate(108.8 332)" fill="none" stroke="#5C2032" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#5C2032" stroke="none"/>
+    </g><g transform="translate(126.3 332)" fill="none" stroke="#5C2032" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#5C2032" stroke="none"/>
+    </g><g transform="translate(143.8 332)" fill="none" stroke="#5C2032" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#5C2032" stroke="none"/>
+    </g><g transform="translate(161.3 332)" fill="none" stroke="#5C2032" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#5C2032" stroke="none"/>
+    </g><path d="M15 339Q100 357 185 339" fill="none" stroke="url(#anarkaligold)" stroke-width="1.2" stroke-linecap="round" opacity="1"/><path d="M61 128Q100 144 139 128" fill="none" stroke="#FFF" stroke-opacity=".3" stroke-width=".7"/>
+    <path d="M74 78Q100 96 128 80L132 98Q100 114 70 96Z" fill="url(#anarkalidup)" opacity=".85"/><path d="M128 88Q150 160 146 250L134 248Q140 168 120 98Z" fill="url(#anarkalidup)" opacity=".7"/><path d="M128 88Q150 160 146 250" fill="none" stroke="#C9A45E" stroke-width="1" opacity=".6"/><g transform="translate(82 252) rotate(-10) scale(1.5)" fill="none" stroke="#C9A45E" stroke-width="1.15" stroke-linecap="round" opacity=".95">
+    <path d="M0 4C1 12 1 20 3 28"/>
+    <path d="M1 13c-5-2-8-7-8-13 6 1 9 6 8 13z" fill="#C9A45E" fill-opacity=".22"/>
+    <path d="M2 21c5-2 8-7 8-13-6 1-9 6-8 13z" fill="#C9A45E" fill-opacity=".22"/>
+    <g transform="translate(1 -5)">
+      <circle cx="0" cy="-6.4" r="2.9"/>
+      <circle cx="6.1" cy="-2" r="2.9"/>
+      <circle cx="3.8" cy="5.2" r="2.9"/>
+      <circle cx="-3.8" cy="5.2" r="2.9"/>
+      <circle cx="-6.1" cy="-2" r="2.9"/>
+      <circle r="2.2" fill="#C9A45E" fill-opacity=".55"/>
+    </g>
+    <g fill="#C9A45E" opacity=".8"><circle cx="10" cy="6" r=".8"/><circle cx="-7" cy="11" r=".7"/></g>
+  </g><g transform="translate(120 292) rotate(10) scale(1.2)" fill="none" stroke="#C9A45E" stroke-width="1.15" stroke-linecap="round" opacity=".95">
+    <path d="M0 4C1 12 1 20 3 28"/>
+    <path d="M1 13c-5-2-8-7-8-13 6 1 9 6 8 13z" fill="#C9A45E" fill-opacity=".22"/>
+    <path d="M2 21c5-2 8-7 8-13-6 1-9 6-8 13z" fill="#C9A45E" fill-opacity=".22"/>
+    <g transform="translate(1 -5)">
+      <circle cx="0" cy="-6.4" r="2.9"/>
+      <circle cx="6.1" cy="-2" r="2.9"/>
+      <circle cx="3.8" cy="5.2" r="2.9"/>
+      <circle cx="-3.8" cy="5.2" r="2.9"/>
+      <circle cx="-6.1" cy="-2" r="2.9"/>
+      <circle r="2.2" fill="#C9A45E" fill-opacity=".55"/>
+    </g>
+    <g fill="#C9A45E" opacity=".8"><circle cx="10" cy="6" r=".8"/><circle cx="-7" cy="11" r=".7"/></g>
+  </g><g fill="#C9A45E" opacity=".7"><circle cx="76" cy="188" r="1"/><circle cx="124" cy="204" r="1"/><circle cx="100" cy="240" r="1.1"/></g><circle cx="100" cy="150" r="2.2" fill="url(#anarkaligold)"/><g fill="none" stroke="#C9A45E" stroke-width="1.1" opacity=".95">
+    <path d="M92 56q8 16 16 0"/>
+    <path d="M95 60q5 9 10 0" stroke-width=".7" opacity=".8"/>
+    <circle cx="100" cy="70" r="2.2" fill="#C9A45E" stroke="none"/>
+    <circle cx="100" cy="70" r="3.8" stroke-width=".6" opacity=".7"/>
+  </g>
+  </g>
+<rect x="36" y="42.00000000000001" width="828" height="1116" fill="none" stroke="rgba(74,42,32,.35)" stroke-width="1"/>
+<g fill="#7A2E3E" font-family="Georgia, 'Times New Roman', serif">
+    <text x="67.5" y="1134" font-size="19" letter-spacing="5" opacity=".9">NOORI PARADISE</text>
+    <text x="67.5" y="1162.5" font-size="13" letter-spacing="5" opacity=".55">THE FESTIVE EDIT · ATELIER ILLUSTRATION</text>
+  </g>
+  <path d="M67.5 1092.2h90" stroke="#C9A45E" stroke-width="1" opacity=".7"/>
+<rect width="900" height="1200" filter="url(#anarkaligrain)" opacity=".5" style="mix-blend-mode:soft-light"/>
+<rect width="900" height="1200" fill="none" stroke="#F6E4DB" stroke-opacity=".2" stroke-width="2"/>
+</svg>

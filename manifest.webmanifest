@@ -1,0 +1,15 @@
+{
+  "name": "Noori Paradise — Dress Atelier",
+  "short_name": "Noori Paradise",
+  "description": "A quiet dress atelier on Triplicane High Road, Chennai. Bridal, festive and everyday, chosen slowly.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "browser",
+  "background_color": "#1D0A11",
+  "theme_color": "#1D0A11",
+  "icons": [
+    { "src": "assets/img/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

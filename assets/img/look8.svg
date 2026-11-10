@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-label="LOOK 08 — couture illustration">
+<defs>
+  <linearGradient id="look8bg" x1="0" y1="0" x2=".9" y2="1">
+    <stop offset="0" stop-color="#181016"/><stop offset=".55" stop-color="#2E1B26"/><stop offset="1" stop-color="#553344"/>
+  </linearGradient>
+  <radialGradient id="look8halo" cx=".5" cy=".38" r=".6">
+    <stop offset="0" stop-color="#E7C896" stop-opacity=".5"/>
+    <stop offset=".5" stop-color="#E7C896" stop-opacity=".16"/>
+    <stop offset="1" stop-color="#E7C896" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="look8fab" x1="0" y1="0" x2="1" y2=".2">
+    <stop offset="0" stop-color="#5C3E1E"/><stop offset=".18" stop-color="#BE9656"/><stop offset=".42" stop-color="#F0DAB0"/>
+    <stop offset=".62" stop-color="#BE9656"/><stop offset=".82" stop-color="#F0DAB0"/><stop offset="1" stop-color="#5C3E1E"/>
+  </linearGradient>
+  <linearGradient id="look8shade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity=".26"/><stop offset=".46" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity=".38"/>
+  </linearGradient>
+  <linearGradient id="look8sheen" x1="-.4" y1="0" x2=".2" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".46" stop-color="#fff" stop-opacity=".4"/>
+    <stop offset=".62" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="look8gold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#E7C896" stop-opacity=".55"/><stop offset=".4" stop-color="#FFF1C6"/>
+    <stop offset=".68" stop-color="#E7C896"/><stop offset="1" stop-color="#E7C896" stop-opacity=".5"/>
+  </linearGradient>
+  <linearGradient id="look8dup" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFF" stop-opacity=".5"/><stop offset=".5" stop-color="#F0DAB0" stop-opacity=".34"/>
+    <stop offset="1" stop-color="#FFF" stop-opacity=".14"/>
+  </linearGradient>
+  <linearGradient id="look8form" x1="0" y1="0" x2="1" y2=".3">
+    <stop offset="0" stop-color="#241014"/><stop offset=".42" stop-color="#7C5852"/><stop offset=".72" stop-color="#3C2327"/><stop offset="1" stop-color="#170A0E"/>
+  </linearGradient>
+  <radialGradient id="look8vel" cx=".34" cy=".2" r=".9">
+    <stop offset="0" stop-color="#fff" stop-opacity=".2"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity=".4"/>
+  </radialGradient>
+  <pattern id="look8weave" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+    <line x1="0" y1="0" x2="0" y2="6" stroke="#FFF" stroke-opacity=".16" stroke-width=".7"/>
+    <line x1="3" y1="0" x2="3" y2="6" stroke="#000" stroke-opacity=".07" stroke-width=".6"/>
+  </pattern>
+  <pattern id="look8sequin" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(18)">
+    <circle cx="3" cy="3" r=".95" fill="#E7C896" fill-opacity=".6"/>
+    <circle cx="7.5" cy="7.5" r=".6" fill="#FFF" fill-opacity=".55"/>
+  </pattern>
+  <filter id="look8soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="26"/></filter>
+  <filter id="look8shadow" x="-30%" y="-20%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000" flood-opacity=".4"/>
+  </filter>
+  <filter id="look8grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".86" numOctaves="3" stitchTiles="stitch" seed="38"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope=".14"/></feComponentTransfer>
+  </filter>
+</defs>
+<rect width="1000" height="1000" fill="url(#look8bg)"/>
+<ellipse cx="500" cy="420" rx="520" ry="500" fill="url(#look8halo)"/>
+<g opacity="0.55" fill="none" stroke="#E7C896">
+    <path d="M250 900V270A250 250 0 0 1 750 270V900" stroke-width="1.2"/>
+    <path d="M260 900V275A240 240 0 0 1 740 275V900" stroke-width=".6" opacity=".6"/>
+  </g>
+<g opacity="0.5" stroke="#E7C896" fill="none">
+    <circle cx="500" cy="75" r="12" stroke-width="1"/>
+    <path d="M500 47v14M500 89v14" stroke-width="1"/>
+    <path d="M100 160q25 20 50 0" stroke-width=".8"/>
+    <path d="M850 160q25 20 50 0" stroke-width=".8"/>
+  </g>
+<ellipse cx="500" cy="788.6559139784947" rx="180.6451612903226" ry="24.46236559139785" fill="#000" opacity="0.34" filter="url(#look8soft)"/>
+<g transform="translate(311.8 115.0) scale(1.882)" filter="url(#look8shadow)">
+    <g class="np-form">
+    <path d="M94 40q0-5 6-5t6 5v16q15 3 24 15l8 25q4 16 2 35-2 20-8 33H68q-6-13-8-33-2-19 2-35l8-25q9-12 24-15z" fill="url(#look8form)"/>
+    <path d="M95 53q5 3 10 0" fill="none" stroke="#FFF" stroke-opacity=".16" stroke-width="1"/>
+    <path d="M87 74q-5 34-5 68M113 74q5 34 5 68" fill="none" stroke="#FFF" stroke-opacity=".08" stroke-width="1"/>
+    <path d="M100 100v70" fill="none" stroke="#000" stroke-opacity=".2" stroke-width="1"/>
+    <circle cx="100" cy="35" r="3.6" fill="url(#look8gold)" opacity=".92"/>
+    <path d="M100 39v6" stroke="url(#look8gold)" stroke-width="1.4" opacity=".8"/>
+    <path d="M96 190h8v162h-8z" fill="url(#look8form)" opacity=".9"/>
+    <ellipse cx="100" cy="354" rx="34" ry="7" fill="#000" opacity=".26"/>
+    <path d="M66 352h68M78 359h44" stroke="#000" stroke-opacity=".22" stroke-width="2"/>
+  </g>
+    <path d="M132 66Q178 140 172 292Q168 340 148 362Q162 250 128 120Z" fill="url(#look8dup)" opacity=".65"/>
+    <path d="M74 60Q88 76 100 76Q112 76 126 60L139 128Q184 242 186 340Q100 358 14 340Q16 242 61 128Z" fill="url(#look8fab)"/><path d="M74 60Q88 76 100 76Q112 76 126 60L139 128Q184 242 186 340Q100 358 14 340Q16 242 61 128Z" fill="url(#look8shade)" opacity=".46"/><path d="M74 60Q88 76 100 76Q112 76 126 60L139 128Q184 242 186 340Q100 358 14 340Q16 242 61 128Z" fill="url(#look8sheen)" opacity=".85"/><path d="M74 60Q88 76 100 76Q112 76 126 60L139 128Q184 242 186 340Q100 358 14 340Q16 242 61 128Z" fill="url(#look8weave)" opacity=".6"/><path d="M74 60Q88 76 100 76Q112 76 126 60L139 128Q184 242 186 340Q100 358 14 340Q16 242 61 128Z" fill="url(#look8sequin)" opacity=".35"/><path d="M70 64Q54 72 46 108L58 112Q64 80 79 76Z" fill="url(#look8fab)"/><path d="M130 64Q146 72 154 108L142 112Q136 80 121 76Z" fill="url(#look8fab)"/><path d="M78 64Q100 88 122 64" fill="none" stroke="url(#look8gold)" stroke-width="1.7"/><path d="M61 128Q100 144 139 128" fill="none" stroke="url(#look8gold)" stroke-width="1.4"/><path d="M66 150Q100 164 134 150" fill="none" stroke="url(#look8gold)" stroke-width=".9" opacity=".7"/><path d="M100 132V352" fill="none" stroke="#FFF" stroke-opacity="0.3" stroke-width="0.9" stroke-linecap="round"/><path d="M86 138Q64 246 46 348" fill="none" stroke="#FFF" stroke-opacity="0.22" stroke-width="0.9" stroke-linecap="round"/><path d="M114 138Q136 246 154 348" fill="none" stroke="#FFF" stroke-opacity="0.22" stroke-width="0.9" stroke-linecap="round"/><path d="M78 142Q48 252 30 346" fill="none" stroke="#000" stroke-opacity="0.17" stroke-width="1.1" stroke-linecap="round"/><path d="M122 142Q152 252 170 346" fill="none" stroke="#000" stroke-opacity="0.17" stroke-width="1.1" stroke-linecap="round"/><path d="M94 134Q82 250 74 352" fill="none" stroke="#FFF" stroke-opacity="0.15" stroke-width="0.9" stroke-linecap="round"/><path d="M106 134Q118 250 126 352" fill="none" stroke="#FFF" stroke-opacity="0.15" stroke-width="0.9" stroke-linecap="round"/><path d="M18 324Q100 342 182 324L186 340Q100 358 14 340Z" fill="url(#look8gold)" opacity=".92"/><g transform="translate(38.8 332)" fill="none" stroke="#5C2032" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#5C2032" stroke="none"/>
+    </g><g transform="translate(56.3 332)" fill="none" stroke="#5C2032" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#5C2032" stroke="none"/>
+    </g><g transform="translate(73.8 332)" fill="none" stroke="#5C2032" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#5C2032" stroke="none"/>
+    </g><g transform="translate(91.3 332)" fill="none" stroke="#5C2032" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#5C2032" stroke="none"/>
+    </g><g transform="translate(108.8 332)" fill="none" stroke="#5C2032" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#5C2032" stroke="none"/>
+    </g><g transform="translate(126.3 332)" fill="none" stroke="#5C2032" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#5C2032" stroke="none"/>
+    </g><g transform="translate(143.8 332)" fill="none" stroke="#5C2032" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#5C2032" stroke="none"/>
+    </g><g transform="translate(161.3 332)" fill="none" stroke="#5C2032" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#5C2032" stroke="none"/>
+    </g><path d="M15 339Q100 357 185 339" fill="none" stroke="url(#look8gold)" stroke-width="1.2" stroke-linecap="round" opacity="1"/><path d="M61 128Q100 144 139 128" fill="none" stroke="#FFF" stroke-opacity=".3" stroke-width=".7"/>
+    <path d="M74 78Q100 96 128 80L132 98Q100 114 70 96Z" fill="url(#look8dup)" opacity=".85"/><path d="M128 88Q150 160 146 250L134 248Q140 168 120 98Z" fill="url(#look8dup)" opacity=".7"/><path d="M128 88Q150 160 146 250" fill="none" stroke="#E7C896" stroke-width="1" opacity=".6"/><g transform="translate(82 252) rotate(-10) scale(1.5)" fill="none" stroke="#6A4418" stroke-width="1.15" stroke-linecap="round" opacity=".95">
+    <path d="M0 4C1 12 1 20 3 28"/>
+    <path d="M1 13c-5-2-8-7-8-13 6 1 9 6 8 13z" fill="#6A4418" fill-opacity=".22"/>
+    <path d="M2 21c5-2 8-7 8-13-6 1-9 6-8 13z" fill="#6A4418" fill-opacity=".22"/>
+    <g transform="translate(1 -5)">
+      <circle cx="0" cy="-6.4" r="2.9"/>
+      <circle cx="6.1" cy="-2" r="2.9"/>
+      <circle cx="3.8" cy="5.2" r="2.9"/>
+      <circle cx="-3.8" cy="5.2" r="2.9"/>
+      <circle cx="-6.1" cy="-2" r="2.9"/>
+      <circle r="2.2" fill="#6A4418" fill-opacity=".55"/>
+    </g>
+    <g fill="#6A4418" opacity=".8"><circle cx="10" cy="6" r=".8"/><circle cx="-7" cy="11" r=".7"/></g>
+  </g><g transform="translate(120 292) rotate(10) scale(1.2)" fill="none" stroke="#6A4418" stroke-width="1.15" stroke-linecap="round" opacity=".95">
+    <path d="M0 4C1 12 1 20 3 28"/>
+    <path d="M1 13c-5-2-8-7-8-13 6 1 9 6 8 13z" fill="#6A4418" fill-opacity=".22"/>
+    <path d="M2 21c5-2 8-7 8-13-6 1-9 6-8 13z" fill="#6A4418" fill-opacity=".22"/>
+    <g transform="translate(1 -5)">
+      <circle cx="0" cy="-6.4" r="2.9"/>
+      <circle cx="6.1" cy="-2" r="2.9"/>
+      <circle cx="3.8" cy="5.2" r="2.9"/>
+      <circle cx="-3.8" cy="5.2" r="2.9"/>
+      <circle cx="-6.1" cy="-2" r="2.9"/>
+      <circle r="2.2" fill="#6A4418" fill-opacity=".55"/>
+    </g>
+    <g fill="#6A4418" opacity=".8"><circle cx="10" cy="6" r=".8"/><circle cx="-7" cy="11" r=".7"/></g>
+  </g><g fill="#6A4418" opacity=".7"><circle cx="76" cy="188" r="1"/><circle cx="124" cy="204" r="1"/><circle cx="100" cy="240" r="1.1"/></g><circle cx="100" cy="150" r="2.2" fill="url(#look8gold)"/><g fill="none" stroke="#E7C896" stroke-width="1.1" opacity=".95">
+    <path d="M92 56q8 16 16 0"/>
+    <path d="M95 60q5 9 10 0" stroke-width=".7" opacity=".8"/>
+    <circle cx="100" cy="70" r="2.2" fill="#E7C896" stroke="none"/>
+    <circle cx="100" cy="70" r="3.8" stroke-width=".6" opacity=".7"/>
+  </g>
+  </g>
+<rect x="40" y="35" width="920" height="930" fill="none" stroke="rgba(247,233,210,.34)" stroke-width="1"/>
+<g fill="#F7E9D2" font-family="Georgia, 'Times New Roman', serif">
+    <text x="75" y="945" font-size="21" letter-spacing="6" opacity=".9">NOORI PARADISE</text>
+    <text x="75" y="976.5" font-size="14" letter-spacing="5" opacity=".55">LOOK 08 · ATELIER ILLUSTRATION</text>
+  </g>
+  <path d="M75 898.8h100" stroke="#E7C896" stroke-width="1" opacity=".7"/>
+<rect width="1000" height="1000" filter="url(#look8grain)" opacity=".5" style="mix-blend-mode:soft-light"/>
+<rect width="1000" height="1000" fill="none" stroke="#181016" stroke-opacity=".2" stroke-width="2"/>
+</svg>

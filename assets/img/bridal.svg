@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-label="THE BRIDAL EDIT — couture illustration">
+<defs>
+  <linearGradient id="bridalbg" x1="0" y1="0" x2=".9" y2="1">
+    <stop offset="0" stop-color="#1B0710"/><stop offset=".55" stop-color="#3A1224"/><stop offset="1" stop-color="#6B2138"/>
+  </linearGradient>
+  <radialGradient id="bridalhalo" cx=".5" cy=".38" r=".6">
+    <stop offset="0" stop-color="#F6D89A" stop-opacity=".5"/>
+    <stop offset=".5" stop-color="#F6D89A" stop-opacity=".16"/>
+    <stop offset="1" stop-color="#F6D89A" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="bridalfab" x1="0" y1="0" x2="1" y2=".2">
+    <stop offset="0" stop-color="#8A5B20"/><stop offset=".18" stop-color="#E9C272"/><stop offset=".42" stop-color="#FFF0C4"/>
+    <stop offset=".62" stop-color="#E9C272"/><stop offset=".82" stop-color="#FFF0C4"/><stop offset="1" stop-color="#8A5B20"/>
+  </linearGradient>
+  <linearGradient id="bridalshade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity=".26"/><stop offset=".46" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity=".38"/>
+  </linearGradient>
+  <linearGradient id="bridalsheen" x1="-.4" y1="0" x2=".2" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".46" stop-color="#fff" stop-opacity=".4"/>
+    <stop offset=".62" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="bridalgold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#F6D89A" stop-opacity=".55"/><stop offset=".4" stop-color="#FFF1C6"/>
+    <stop offset=".68" stop-color="#F6D89A"/><stop offset="1" stop-color="#F6D89A" stop-opacity=".5"/>
+  </linearGradient>
+  <linearGradient id="bridaldup" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFF" stop-opacity=".5"/><stop offset=".5" stop-color="#FFF0C4" stop-opacity=".34"/>
+    <stop offset="1" stop-color="#FFF" stop-opacity=".14"/>
+  </linearGradient>
+  <linearGradient id="bridalform" x1="0" y1="0" x2="1" y2=".3">
+    <stop offset="0" stop-color="#241014"/><stop offset=".42" stop-color="#7C5852"/><stop offset=".72" stop-color="#3C2327"/><stop offset="1" stop-color="#170A0E"/>
+  </linearGradient>
+  <radialGradient id="bridalvel" cx=".34" cy=".2" r=".9">
+    <stop offset="0" stop-color="#fff" stop-opacity=".2"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity=".4"/>
+  </radialGradient>
+  <pattern id="bridalweave" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+    <line x1="0" y1="0" x2="0" y2="6" stroke="#FFF" stroke-opacity=".16" stroke-width=".7"/>
+    <line x1="3" y1="0" x2="3" y2="6" stroke="#000" stroke-opacity=".07" stroke-width=".6"/>
+  </pattern>
+  <pattern id="bridalsequin" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(18)">
+    <circle cx="3" cy="3" r=".95" fill="#F6D89A" fill-opacity=".6"/>
+    <circle cx="7.5" cy="7.5" r=".6" fill="#FFF" fill-opacity=".55"/>
+  </pattern>
+  <filter id="bridalsoft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="23"/></filter>
+  <filter id="bridalshadow" x="-30%" y="-20%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="7" stdDeviation="11" flood-color="#000" flood-opacity=".4"/>
+  </filter>
+  <filter id="bridalgrain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".86" numOctaves="3" stitchTiles="stitch" seed="5"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope=".14"/></feComponentTransfer>
+  </filter>
+</defs>
+<rect width="900" height="1200" fill="url(#bridalbg)"/>
+<ellipse cx="450" cy="504" rx="468" ry="600" fill="url(#bridalhalo)"/>
+<g opacity="0.55" fill="none" stroke="#F6D89A">
+    <path d="M171 1080V309.72A279 279 0 0 1 729 309.72V1080" stroke-width="1.2"/>
+    <path d="M181 1080V315.29999999999995A269 269 0 0 1 719 315.29999999999995V1080" stroke-width=".6" opacity=".6"/>
+  </g>
+<g opacity="0.5" stroke="#F6D89A" fill="none">
+    <circle cx="450" cy="90" r="10.8" stroke-width="1"/>
+    <path d="M450 64.8v12.6M450 102.6v12.6" stroke-width="1"/>
+    <path d="M90 192q22.5 24 45 0" stroke-width=".8"/>
+    <path d="M765 192q22.5 24 45 0" stroke-width=".8"/>
+  </g>
+<ellipse cx="450" cy="946.3870967741937" rx="216.77419354838713" ry="29.354838709677423" fill="#000" opacity="0.34" filter="url(#bridalsoft)"/>
+<g transform="translate(224.2 138.0) scale(2.258)" filter="url(#bridalshadow)">
+    <g class="np-form">
+    <path d="M94 40q0-5 6-5t6 5v16q15 3 24 15l8 25q4 16 2 35-2 20-8 33H68q-6-13-8-33-2-19 2-35l8-25q9-12 24-15z" fill="url(#bridalform)"/>
+    <path d="M95 53q5 3 10 0" fill="none" stroke="#FFF" stroke-opacity=".16" stroke-width="1"/>
+    <path d="M87 74q-5 34-5 68M113 74q5 34 5 68" fill="none" stroke="#FFF" stroke-opacity=".08" stroke-width="1"/>
+    <path d="M100 100v70" fill="none" stroke="#000" stroke-opacity=".2" stroke-width="1"/>
+    <circle cx="100" cy="35" r="3.6" fill="url(#bridalgold)" opacity=".92"/>
+    <path d="M100 39v6" stroke="url(#bridalgold)" stroke-width="1.4" opacity=".8"/>
+    <path d="M96 190h8v162h-8z" fill="url(#bridalform)" opacity=".9"/>
+    <ellipse cx="100" cy="354" rx="34" ry="7" fill="#000" opacity=".26"/>
+    <path d="M66 352h68M78 359h44" stroke="#000" stroke-opacity=".22" stroke-width="2"/>
+  </g>
+    <path d="M64 58Q26 150 34 292Q40 338 66 358Q54 232 90 104Z" fill="url(#bridaldup)" opacity=".7"/>
+      <path d="M64 58Q26 150 34 292Q40 338 66 358" fill="none" stroke="#F6D89A" stroke-width="1" opacity=".5"/><path d="M136 58Q174 150 168 292Q162 338 138 358Q148 232 112 104Z" fill="url(#bridaldup)" opacity=".55"/>
+    <path d="M74 86Q82 72 100 82Q118 72 126 86L132 126Q100 138 68 126Z" fill="#7A1228"/><path d="M74 86Q82 72 100 82Q118 72 126 86L132 126Q100 138 68 126Z" fill="url(#bridalshade)" opacity=".5"/><g fill="#F6D89A" opacity=".9"><circle cx="80" cy="96" r="1"/><circle cx="120" cy="96" r="1"/><circle cx="100" cy="112" r="1.2"/><circle cx="88" cy="104" r=".8"/><circle cx="112" cy="104" r=".8"/></g><path d="M74 86Q82 72 100 82Q118 72 126 86" fill="none" stroke="url(#bridalgold)" stroke-width="1.7"/><path d="M74 86Q82 72 100 82Q118 72 126 86" fill="none" stroke="#FFF" stroke-opacity=".35" stroke-width=".7"/><path d="M100 96V126" fill="none" stroke="#FFF" stroke-opacity=".18" stroke-width="1"/><path d="M86 74Q82 100 84 124" fill="none" stroke="#FFF" stroke-opacity="0.3" stroke-width="0.9" stroke-linecap="round"/><path d="M114 74Q118 100 116 124" fill="none" stroke="#FFF" stroke-opacity="0.3" stroke-width="0.9" stroke-linecap="round"/><path d="M66 126Q100 140 134 126L137 150Q100 164 63 150Z" fill="url(#bridalgold)"/><path d="M66 132Q100 146 134 132" fill="none" stroke="#FFF" stroke-opacity=".45" stroke-width=".8"/><path d="M74 158H126L194 346Q100 364 6 346Z" fill="url(#bridalfab)"/><path d="M74 158H126L194 346Q100 364 6 346Z" fill="url(#bridalshade)" opacity=".46"/><path d="M74 158H126L194 346Q100 364 6 346Z" fill="url(#bridalsheen)" opacity=".85"/><path d="M74 158H126L194 346Q100 364 6 346Z" fill="url(#bridalweave)" opacity=".65"/><path d="M74 158H126L194 346Q100 364 6 346Z" fill="url(#bridalsequin)" opacity=".55"/><path d="M100 164L100 358" fill="none" stroke="#FFF" stroke-opacity="0.34" stroke-width="0.9" stroke-linecap="round"/><path d="M88 164L44 358" fill="none" stroke="#FFF" stroke-opacity="0.24" stroke-width="0.9" stroke-linecap="round"/><path d="M112 164L156 358" fill="none" stroke="#FFF" stroke-opacity="0.24" stroke-width="0.9" stroke-linecap="round"/><path d="M82 164L26 352" fill="none" stroke="#000" stroke-opacity="0.2" stroke-width="1.1" stroke-linecap="round"/><path d="M118 164L174 352" fill="none" stroke="#000" stroke-opacity="0.2" stroke-width="1.1" stroke-linecap="round"/><path d="M94 166Q74 252 56 360" fill="none" stroke="#FFF" stroke-opacity="0.18" stroke-width="0.9" stroke-linecap="round"/><path d="M106 166Q126 252 144 360" fill="none" stroke="#FFF" stroke-opacity="0.18" stroke-width="0.9" stroke-linecap="round"/><path d="M14 320Q100 338 186 320L194 346Q100 364 6 346Z" fill="url(#bridalgold)" opacity=".95"/><path d="M18 324Q100 342 182 324" fill="none" stroke="#FFF" stroke-opacity=".4" stroke-width=".8"/><g transform="translate(37.8 337)" fill="none" stroke="#4A0A1E" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#4A0A1E" stroke="none"/>
+    </g><g transform="translate(53.3 337)" fill="none" stroke="#4A0A1E" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#4A0A1E" stroke="none"/>
+    </g><g transform="translate(68.9 337)" fill="none" stroke="#4A0A1E" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#4A0A1E" stroke="none"/>
+    </g><g transform="translate(84.4 337)" fill="none" stroke="#4A0A1E" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#4A0A1E" stroke="none"/>
+    </g><g transform="translate(100.0 337)" fill="none" stroke="#4A0A1E" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#4A0A1E" stroke="none"/>
+    </g><g transform="translate(115.6 337)" fill="none" stroke="#4A0A1E" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#4A0A1E" stroke="none"/>
+    </g><g transform="translate(131.1 337)" fill="none" stroke="#4A0A1E" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#4A0A1E" stroke="none"/>
+    </g><g transform="translate(146.7 337)" fill="none" stroke="#4A0A1E" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#4A0A1E" stroke="none"/>
+    </g><g transform="translate(162.2 337)" fill="none" stroke="#4A0A1E" stroke-width=".9" opacity=".85">
+      <path d="M0-4.5l3.2 4.5L0 4.5-3.2 0z"/><circle cx="0" cy="0" r=".7" fill="#4A0A1E" stroke="none"/>
+    </g><path d="M8 345Q100 362 192 345" fill="none" stroke="url(#bridalgold)" stroke-width="1.2" stroke-linecap="round" opacity="1"/>
+    <path d="M68 76Q100 94 132 78L140 98Q104 116 62 96Z" fill="url(#bridaldup)" opacity=".9"/><path d="M68 76Q100 94 132 78" fill="none" stroke="url(#bridalgold)" stroke-width="1.1"/><path d="M132 84Q152 160 148 256L136 254Q142 168 124 96Z" fill="url(#bridaldup)" opacity=".8"/><path d="M132 84Q152 160 148 256" fill="none" stroke="#F6D89A" stroke-width="1" opacity=".65"/><path d="M141 100Q154 166 150 250" fill="none" stroke="#FFF" stroke-opacity=".4" stroke-width=".7"/><g fill="#6E0E26" opacity=".8"><circle cx="139" cy="140" r="1.1"/><circle cx="145" cy="176" r="1"/><circle cx="143" cy="214" r="1.1"/></g><g transform="translate(78 262) rotate(-10) scale(1.3)" fill="none" stroke="#6E0E26" stroke-width="1.15" stroke-linecap="round" opacity=".95">
+    <path d="M0 4C1 12 1 20 3 28"/>
+    <path d="M1 13c-5-2-8-7-8-13 6 1 9 6 8 13z" fill="#6E0E26" fill-opacity=".22"/>
+    <path d="M2 21c5-2 8-7 8-13-6 1-9 6-8 13z" fill="#6E0E26" fill-opacity=".22"/>
+    <g transform="translate(1 -5)">
+      <circle cx="0" cy="-6.4" r="2.9"/>
+      <circle cx="6.1" cy="-2" r="2.9"/>
+      <circle cx="3.8" cy="5.2" r="2.9"/>
+      <circle cx="-3.8" cy="5.2" r="2.9"/>
+      <circle cx="-6.1" cy="-2" r="2.9"/>
+      <circle r="2.2" fill="#6E0E26" fill-opacity=".55"/>
+    </g>
+    <g fill="#6E0E26" opacity=".8"><circle cx="10" cy="6" r=".8"/><circle cx="-7" cy="11" r=".7"/></g>
+  </g><g transform="translate(124 300) rotate(10) scale(1.05)" fill="none" stroke="#6E0E26" stroke-width="1.15" stroke-linecap="round" opacity=".95">
+    <path d="M0 4C1 12 1 20 3 28"/>
+    <path d="M1 13c-5-2-8-7-8-13 6 1 9 6 8 13z" fill="#6E0E26" fill-opacity=".22"/>
+    <path d="M2 21c5-2 8-7 8-13-6 1-9 6-8 13z" fill="#6E0E26" fill-opacity=".22"/>
+    <g transform="translate(1 -5)">
+      <circle cx="0" cy="-6.4" r="2.9"/>
+      <circle cx="6.1" cy="-2" r="2.9"/>
+      <circle cx="3.8" cy="5.2" r="2.9"/>
+      <circle cx="-3.8" cy="5.2" r="2.9"/>
+      <circle cx="-6.1" cy="-2" r="2.9"/>
+      <circle r="2.2" fill="#6E0E26" fill-opacity=".55"/>
+    </g>
+    <g fill="#6E0E26" opacity=".8"><circle cx="10" cy="6" r=".8"/><circle cx="-7" cy="11" r=".7"/></g>
+  </g><g transform="translate(62 222) rotate(-4) scale(0.85)" fill="none" stroke="#6E0E26" stroke-width="1.15" stroke-linecap="round" opacity=".95">
+    <path d="M0 4C1 12 1 20 3 28"/>
+    <path d="M1 13c-5-2-8-7-8-13 6 1 9 6 8 13z" fill="#6E0E26" fill-opacity=".22"/>
+    <path d="M2 21c5-2 8-7 8-13-6 1-9 6-8 13z" fill="#6E0E26" fill-opacity=".22"/>
+    <g transform="translate(1 -5)">
+      <circle cx="0" cy="-6.4" r="2.9"/>
+      <circle cx="6.1" cy="-2" r="2.9"/>
+      <circle cx="3.8" cy="5.2" r="2.9"/>
+      <circle cx="-3.8" cy="5.2" r="2.9"/>
+      <circle cx="-6.1" cy="-2" r="2.9"/>
+      <circle r="2.2" fill="#6E0E26" fill-opacity=".55"/>
+    </g>
+    <g fill="#6E0E26" opacity=".8"><circle cx="10" cy="6" r=".8"/><circle cx="-7" cy="11" r=".7"/></g>
+  </g><g fill="#6E0E26" opacity=".75"><circle cx="76" cy="192" r="1.1"/><circle cx="124" cy="206" r="1.1"/><circle cx="96" cy="238" r="1"/><circle cx="132" cy="272" r="1"/></g><path d="M100 154v10" stroke="url(#bridalgold)" stroke-width="1"/><circle cx="100" cy="168" r="2.4" fill="url(#bridalgold)"/><g fill="none" stroke="#F6D89A" stroke-width="1.1" opacity=".95">
+    <path d="M92 56q8 16 16 0"/>
+    <path d="M95 60q5 9 10 0" stroke-width=".7" opacity=".8"/>
+    <circle cx="100" cy="70" r="2.2" fill="#F6D89A" stroke="none"/>
+    <circle cx="100" cy="70" r="3.8" stroke-width=".6" opacity=".7"/>
+  </g>
+  </g>
+<rect x="36" y="42.00000000000001" width="828" height="1116" fill="none" stroke="rgba(247,233,210,.34)" stroke-width="1"/>
+<g fill="#F7E9D2" font-family="Georgia, 'Times New Roman', serif">
+    <text x="67.5" y="1134" font-size="19" letter-spacing="5" opacity=".9">NOORI PARADISE</text>
+    <text x="67.5" y="1162.5" font-size="13" letter-spacing="5" opacity=".55">THE BRIDAL EDIT · ATELIER ILLUSTRATION</text>
+  </g>
+  <path d="M67.5 1092.2h90" stroke="#F6D89A" stroke-width="1" opacity=".7"/>
+<rect width="900" height="1200" filter="url(#bridalgrain)" opacity=".5" style="mix-blend-mode:soft-light"/>
+<rect width="900" height="1200" fill="none" stroke="#1B0710" stroke-opacity=".2" stroke-width="2"/>
+</svg>

@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#1D0A11">
+<title>Noori Paradise — Dress Atelier, Triplicane, Chennai</title>
+<meta name="description" content="Noori Paradise is a quiet dress atelier on Triplicane High Road, Chennai. Bridal lehengas, Anarkalis, evening gowns, abayas, salwar sets and festive kurtis. Demo website concept with placeholder content.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Noori Paradise">
+<meta property="og:title" content="Noori Paradise — Dress Atelier, Triplicane, Chennai">
+<meta property="og:description" content="Bridal lehengas, Anarkalis, evening gowns and modest wear — chosen slowly, fitted properly, in the heart of Triplicane.">
+<meta property="og:image" content="assets/img/hero.svg">
+<meta property="og:image:alt" content="A gold couture lehenga illustration for the Noori Paradise festive edit">
+<meta property="og:locale" content="en_IN">
+<meta property="og:locale:alternate" content="ta_IN">
+<meta property="og:locale:alternate" content="ur_PK">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Noori Paradise — Dress Atelier, Triplicane, Chennai">
+<meta name="twitter:description" content="A quiet dress atelier on Triplicane High Road. Bridal, festive and everyday, chosen slowly.">
+<meta name="twitter:image" content="assets/img/hero.svg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231D0A11'/%3E%3Cpath d='M18 46V18l28 28V18' fill='none' stroke='%23C9AE7C' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="assets/img/icon.svg">
+<link rel="manifest" href="manifest.webmanifest">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ClothingStore",
+  "name": "Noori Paradise",
+  "description": "Dress boutique in Triplicane, Chennai. Bridal lehengas, Anarkalis, party gowns, abayas, salwar sets and festive kurtis.",
+  "image": "assets/img/store.svg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "23, 377F+HJH, 53/1, Triplicane High Rd, Ellis Puram, Padupakkam",
+    "addressLocality": "Chennai",
+    "addressRegion": "Tamil Nadu",
+    "postalCode": "600005",
+    "addressCountry": "IN"
+  },
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=Noori+Paradise+Triplicane+High+Rd+Chennai+600005",
+  "areaServed": "Chennai",
+  "priceRange": "Price on request"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need an appointment at Noori Paradise?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No. Walk in during opening hours. For bridal, message ahead so the fitting room and time are kept for you." }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you alter and make to measure?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Fitting and alterations are part of how the atelier works. A second fitting is arranged when a piece needs it." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I see prices before I visit?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Price depends on fabric, embroidery and fit. The demo site shows price on request; in store the team shows options within the budget you name." }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you deliver outside Chennai?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Ask the atelier when you message. Delivery and courier options depend on the piece and destination." }
+    }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script>
+(function(){
+  document.documentElement.classList.add('js');
+  try{
+    var l=localStorage.getItem('np-lang');
+    if(l==='ta'||l==='ur'){document.documentElement.lang=l;document.documentElement.dir=l==='ur'?'rtl':'ltr';document.documentElement.dataset.lang=l;}
+  }catch(e){}
+})();
+</script>
+</head>
+<body class="is-loading">
+
+<a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
+
+<!-- ── cinematic loader ───────────────────────────────────── -->
+<div class="loader" id="loader" role="status" aria-live="polite" aria-label="Loading Noori Paradise">
+  <div class="loader__panel loader__panel--l"></div>
+  <div class="loader__panel loader__panel--r"></div>
+  <div class="loader__inner">
+    <svg class="loader__mark" viewBox="0 0 160 120" fill="none" aria-hidden="true">
+      <path class="loader__thread loader__thread--1" d="M28 96V24l104 72V24" pathLength="1"/>
+      <path class="loader__thread loader__thread--2" d="M28 24h18M114 96h18" pathLength="1"/>
+      <circle class="loader__dot" cx="80" cy="60" r="2.4"/>
+    </svg>
+    <p class="loader__word"><span>Noori</span><em>Paradise</em></p>
+    <div class="loader__meter"><i id="loadBar"></i></div>
+    <p class="loader__count"><span id="loadPct">00</span><b>—</b><span data-i18n="loader.label">Opening the atelier</span></p>
+  </div>
+</div>
+<noscript><style>.loader{display:none}body.is-loading{overflow:auto}</style></noscript>
+
+<!-- ── persistent chrome ─────────────────────────────────── -->
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" id="cursor" aria-hidden="true">
+  <span class="cursor__dot"></span>
+  <span class="cursor__ring"></span>
+  <span class="cursor__label" id="cursorLabel"></span>
+</div>
+<div class="view-bubble" id="viewBubble" aria-hidden="true"><span data-i18n="cursor.view">View</span></div>
+<div class="progress" aria-hidden="true"><i id="progressBar"></i></div>
+
+<div class="topbar" id="topbar">
+  <div class="announce" id="announce">
+    <div class="announce__left">
+      <span class="announce__spark" aria-hidden="true">✦</span>
+      <span data-i18n="announce.festive">The festive edit</span>
+      <span class="announce__sep" aria-hidden="true">/</span>
+      <span class="announce__festival" id="festivalName">Pongal</span>
+      <span class="announce__offer" data-i18n="announce.ask">Details in store</span>
+    </div>
+    <div class="announce__right">
+      <div class="countdown" id="countdown" aria-label="Festival countdown">
+        <span><b id="cdDays">--</b><small data-i18n="countdown.days">days</small></span>
+        <span><b id="cdHours">--</b><small data-i18n="countdown.hours">hrs</small></span>
+        <span><b id="cdMins">--</b><small data-i18n="countdown.mins">min</small></span>
+        <span><b id="cdSecs">--</b><small data-i18n="countdown.secs">sec</small></span>
+      </div>
+      <span class="status" id="openStatus" data-state="unknown">
+        <i aria-hidden="true"></i><span data-i18n="status.unknown">Hours in store</span>
+      </span>
+    </div>
+  </div>
+
+  <header class="header" id="header">
+    <a class="brand" href="#top">
+      <span class="brand__word">Noori Paradise</span>
+      <span class="brand__sub">Triplicane · Chennai</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a class="nav__link" href="#collections" data-scramble><span data-i18n="nav.collections">Collections</span></a>
+      <a class="nav__link" href="#studio" data-scramble><span data-i18n="nav.studio">Colour studio</span></a>
+      <a class="nav__link" href="#lookbook" data-scramble><span data-i18n="nav.lookbook">Lookbook</span></a>
+      <a class="nav__link" href="#finder" data-scramble><span data-i18n="nav.finder">Find your look</span></a>
+      <a class="nav__link" href="#occasions" data-scramble><span data-i18n="nav.occasions">Occasions</span></a>
+      <a class="nav__link" href="#visit" data-scramble><span data-i18n="nav.visit">Visit</span></a>
+    </nav>
+    <div class="header__tools">
+      <div class="langs" role="group" aria-label="Language">
+        <button class="lang" type="button" data-lang="en" aria-pressed="true">EN</button>
+        <span aria-hidden="true">/</span>
+        <button class="lang" type="button" data-lang="ta" lang="ta" aria-pressed="false">தமிழ்</button>
+        <span aria-hidden="true">/</span>
+        <button class="lang" type="button" data-lang="ur" lang="ur" aria-pressed="false">اردو</button>
+      </div>
+      <button class="wish-btn" type="button" id="wishOpen" aria-label="Open wishlist" data-i18n-aria="a11y.wishlist" data-cursor="open">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.3C7.6 16.8 4 13.6 4 9.9 4 7.2 6 5.4 8.3 5.4c1.4 0 2.7.7 3.7 2 1-1.3 2.3-2 3.7-2C18 5.4 20 7.2 20 9.9c0 3.7-3.6 6.9-8 10.4Z"/></svg>
+        <span class="wish-btn__count" id="wishCount">0</span>
+      </button>
+      <a class="btn btn--sm magnetic header__cta" href="#visit"><span data-i18n="nav.cta">Visit the store</span><i class="btn__arrow" aria-hidden="true">↗</i></a>
+      <button class="menu-btn" type="button" id="menuOpen" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu" data-i18n-aria="nav.menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+</div>
+
+<nav class="section-index" id="sectionIndex" aria-label="Section index">
+  <span class="section-index__label" data-i18n="index.label">Index</span>
+  <span class="section-index__thread" aria-hidden="true"><i id="indexThread"></i></span>
+  <span class="section-index__items">
+    <a href="#collections" data-index-link="collections"><i>01</i><span data-i18n="nav.collections">Collections</span></a>
+    <a href="#lookbook" data-index-link="lookbook"><i>02</i><span data-i18n="nav.lookbook">Lookbook</span></a>
+    <a href="#studio" data-index-link="studio"><i>03</i><span data-i18n="nav.studio">Colour studio</span></a>
+    <a href="#finder" data-index-link="finder"><i>04</i><span data-i18n="nav.finder">Find your look</span></a>
+    <a href="#occasions" data-index-link="occasions"><i>05</i><span data-i18n="nav.occasions">Occasions</span></a>
+    <a href="#faq" data-index-link="faq"><i>06</i><span data-i18n="faq.label">Before you visit</span></a>
+    <a href="#visit" data-index-link="visit"><i>07</i><span data-i18n="nav.visit">Visit</span></a>
+  </span>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <div class="mobile-menu__head">
+    <span class="brand__word">Noori Paradise</span>
+    <button class="menu-close" type="button" id="menuClose" aria-label="Close menu" data-i18n-aria="a11y.close">×</button>
+  </div>
+  <nav class="mobile-menu__nav" aria-label="Mobile">
+    <a href="#collections"><em>01</em><span data-i18n="nav.collections">Collections</span></a>
+    <a href="#studio"><em>02</em><span data-i18n="nav.studio">Colour studio</span></a>
+    <a href="#lookbook"><em>03</em><span data-i18n="nav.lookbook">Lookbook</span></a>
+    <a href="#finder"><em>04</em><span data-i18n="nav.finder">Find your look</span></a>
+    <a href="#occasions"><em>05</em><span data-i18n="nav.occasions">Occasions</span></a>
+    <a href="#visit"><em>06</em><span data-i18n="nav.visit">Visit</span></a>
+  </nav>
+  <div class="mobile-menu__foot">
+    <div class="langs langs--stack" role="group" aria-label="Language">
+      <button class="lang" type="button" data-lang="en" aria-pressed="true">English</button>
+      <button class="lang" type="button" data-lang="ta" lang="ta" aria-pressed="false">தமிழ்</button>
+      <button class="lang" type="button" data-lang="ur" lang="ur" aria-pressed="false">اردو</button>
+    </div>
+    <a class="btn magnetic" href="#visit"><span data-i18n="nav.cta">Visit the store</span><i class="btn__arrow" aria-hidden="true">↗</i></a>
+  </div>
+</div>
+
+<main id="main">
+<a id="top" class="anchor" aria-hidden="true"></a>
+
+<!-- ── hero ──────────────────────────────────────────────── -->
+<section class="hero" aria-labelledby="heroTitle">
+  <canvas class="hero__silk" id="silkCanvas" aria-hidden="true"></canvas>
+  <div class="hero__veil" aria-hidden="true"></div>
+  <canvas class="hero__dust" id="dustCanvas" aria-hidden="true"></canvas>
+
+  <div class="hero__meta">
+    <p><span class="dot" aria-hidden="true"></span><span data-i18n="hero.eyebrow">Triplicane High Road · Chennai</span></p>
+    <p class="hero__meta-right"><span data-i18n="hero.series">Series 01 — The festive edit</span><span class="rule" aria-hidden="true"></span><span data-i18n="hero.est">A Triplicane atelier</span></p>
+  </div>
+
+  <div class="hero__inner">
+    <h1 class="hero__title" id="heroTitle" aria-label="Noori Paradise">
+      <span class="hero__line"><span class="hero__word" data-split data-i18n="hero.brand1">Noori</span></span>
+      <span class="hero__line hero__line--two"><em class="hero__word hero__word--italic" data-split data-i18n="hero.brand2">Paradise</em></span>
+    </h1>
+
+    <p class="hero__tagline"><span data-reveal="fade" data-i18n="hero.tagline">A dress for the moment you remember.</span></p>
+
+    <div class="hero__bottom">
+      <p class="hero__copy" data-i18n="hero.copy">Bridal lehengas, Anarkalis, evening gowns and modest wear — chosen slowly, fitted properly, in the heart of Triplicane.</p>
+      <div class="hero__scroll">
+        <span class="hero__scroll-track" aria-hidden="true"><i></i></span>
+        <span data-i18n="hero.scroll">Scroll to wander</span>
+      </div>
+      <a class="hero__card" href="#lookbook" data-cursor="view">
+        <span class="hero__card-media"><img src="assets/img/hero.svg" width="760" height="980" alt="Couture illustration of a gold bridal lehenga with a deep rose choli" fetchpriority="high"></span>
+        <span class="hero__card-cap"><em data-i18n="hero.cardTitle">The festive edit</em><span data-i18n="hero.cardLink">Enter the lookbook ↗</span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── velocity marquee ──────────────────────────────────── -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__skew" id="marqueeSkew">
+    <div class="marquee__track">
+      <div class="marquee__group">
+        <span data-i18n="col.01.name">Bridal lehengas</span><i>✦</i><span data-i18n="col.02.name">Anarkali suits</span><i>✦</i><span data-i18n="col.03.name">Party gowns</span><i>✦</i><span data-i18n="col.04.name">Abayas</span><i>✦</i><span data-i18n="col.05.name">Salwar sets</span><i>✦</i><span data-i18n="col.06.name">Festive kurtis</span><i>✦</i>
+      </div>
+      <div class="marquee__group">
+        <span data-i18n="col.01.name">Bridal lehengas</span><i>✦</i><span data-i18n="col.02.name">Anarkali suits</span><i>✦</i><span data-i18n="col.03.name">Party gowns</span><i>✦</i><span data-i18n="col.04.name">Abayas</span><i>✦</i><span data-i18n="col.05.name">Salwar sets</span><i>✦</i><span data-i18n="col.06.name">Festive kurtis</span><i>✦</i>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── collections ───────────────────────────────────────── -->
+<section class="collections" id="collections" aria-labelledby="collectionsTitle">
+  <div class="collections__pin">
+    <div class="section-head w">
+      <p class="label" data-reveal="fade"><span>01</span><span data-i18n="col.label">The collections</span></p>
+      <div class="section-head__row">
+        <h2 class="display h2-mask" id="collectionsTitle"><span data-reveal="mask" data-i18n="col.title">Six edits, one rail</span></h2>
+        <p class="section-head__copy" data-i18n="col.copy">A considered wardrobe for weddings, festivals, evenings and the everyday. Scroll through the rail.</p>
+      </div>
+    </div>
+
+    <div class="collections__viewport">
+      <div class="collections__track" id="collectionsTrack" data-cursor="scroll" tabindex="0" role="group" aria-label="The collections rail — use arrow keys to slide" data-i18n-aria="col.railLabel">
+        <article class="card" data-card="bridal">
+          <div class="card__media">
+            <img src="assets/img/bridal.svg" width="900" height="1200" alt="Couture illustration of a bridal lehenga in gold with a deep rose choli and hand embroidery" loading="lazy">
+            <span class="card__frame" aria-hidden="true"></span>
+            <span class="card__num">01</span>
+            <span class="card__tag" data-i18n="col.01.tag">Bridal</span>
+            <div class="card__body">
+              <h3 data-i18n="col.01.name">Bridal lehengas</h3>
+              <p data-i18n="col.01.desc">Zari, hand embroidery and deep colour for the day you will remember.</p>
+              <div class="card__foot">
+                <span class="card__price" data-i18n="col.onrequest">Price on request</span>
+                <button class="enquire magnetic" type="button" data-enquire="col.01" data-cursor="open"><span data-i18n="col.enquire">Enquire</span><i aria-hidden="true">↗</i></button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-card="anarkali">
+          <div class="card__media">
+            <img src="assets/img/anarkali.svg" width="900" height="1200" alt="Couture illustration of a blush Anarkali suit with gold embroidery" loading="lazy">
+            <span class="card__frame" aria-hidden="true"></span>
+            <span class="card__num">02</span>
+            <span class="card__tag" data-i18n="col.02.tag">Festive</span>
+            <div class="card__body">
+              <h3 data-i18n="col.02.name">Anarkali suits</h3>
+              <p data-i18n="col.02.desc">Flowing panels and a full, graceful drape for celebration days.</p>
+              <div class="card__foot">
+                <span class="card__price" data-i18n="col.onrequest">Price on request</span>
+                <button class="enquire magnetic" type="button" data-enquire="col.02" data-cursor="open"><span data-i18n="col.enquire">Enquire</span><i aria-hidden="true">↗</i></button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-card="gown">
+          <div class="card__media">
+            <img src="assets/img/gown.svg" width="900" height="1200" alt="Couture illustration of a mulberry mermaid gown with a sweetheart neckline" loading="lazy">
+            <span class="card__frame" aria-hidden="true"></span>
+            <span class="card__num">03</span>
+            <span class="card__tag" data-i18n="col.03.tag">Evening</span>
+            <div class="card__body">
+              <h3 data-i18n="col.03.name">Party gowns</h3>
+              <p data-i18n="col.03.desc">Evening silhouettes for receptions, dinners and celebrations.</p>
+              <div class="card__foot">
+                <span class="card__price" data-i18n="col.onrequest">Price on request</span>
+                <button class="enquire magnetic" type="button" data-enquire="col.03" data-cursor="open"><span data-i18n="col.enquire">Enquire</span><i aria-hidden="true">↗</i></button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-card="abaya">
+          <div class="card__media">
+            <img src="assets/img/abaya.svg" width="900" height="1200" alt="Couture illustration of an ivory abaya with gold trim" loading="lazy">
+            <span class="card__frame" aria-hidden="true"></span>
+            <span class="card__num">04</span>
+            <span class="card__tag" data-i18n="col.04.tag">Modest</span>
+            <div class="card__body">
+              <h3 data-i18n="col.04.name">Abayas &amp; modest wear</h3>
+              <p data-i18n="col.04.desc">Refined layers, cut for comfort from morning to night.</p>
+              <div class="card__foot">
+                <span class="card__price" data-i18n="col.onrequest">Price on request</span>
+                <button class="enquire magnetic" type="button" data-enquire="col.04" data-cursor="open"><span data-i18n="col.enquire">Enquire</span><i aria-hidden="true">↗</i></button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-card="salwar">
+          <div class="card__media">
+            <img src="assets/img/salwar.svg" width="900" height="1200" alt="Couture illustration of a champagne salwar set with gold embroidery" loading="lazy">
+            <span class="card__frame" aria-hidden="true"></span>
+            <span class="card__num">05</span>
+            <span class="card__tag" data-i18n="col.05.tag">Everyday</span>
+            <div class="card__body">
+              <h3 data-i18n="col.05.name">Salwar sets</h3>
+              <p data-i18n="col.05.desc">Soft fabrics and clean tailoring, made for the everyday.</p>
+              <div class="card__foot">
+                <span class="card__price" data-i18n="col.onrequest">Price on request</span>
+                <button class="enquire magnetic" type="button" data-enquire="col.05" data-cursor="open"><span data-i18n="col.enquire">Enquire</span><i aria-hidden="true">↗</i></button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-card="kurti">
+          <div class="card__media">
+            <img src="assets/img/kurti.svg" width="900" height="1200" alt="Couture illustration of a rose kurti with slim trousers" loading="lazy">
+            <span class="card__frame" aria-hidden="true"></span>
+            <span class="card__num">06</span>
+            <span class="card__tag" data-i18n="col.06.tag">Festive</span>
+            <div class="card__body">
+              <h3 data-i18n="col.06.name">Festive kurtis</h3>
+              <p data-i18n="col.06.desc">Colour and ease for Eid, Diwali and Pongal.</p>
+              <div class="card__foot">
+                <span class="card__price" data-i18n="col.onrequest">Price on request</span>
+                <button class="enquire magnetic" type="button" data-enquire="col.06" data-cursor="open"><span data-i18n="col.enquire">Enquire</span><i aria-hidden="true">↗</i></button>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="collections__foot w">
+      <div class="rail-progress" aria-hidden="true"><i id="railBar"></i></div>
+      <div class="rail-meta"><span id="railIndex">01</span><span class="rail-meta__line" aria-hidden="true"></span><span>06</span><span class="rail-meta__hint" data-i18n="col.drag">Scroll the rail</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── statement ─────────────────────────────────────────── -->
+<section class="statement" id="statement" aria-labelledby="statementTitle">
+  <div class="w">
+    <p class="label label--light" data-reveal="fade"><span>✦</span><span data-i18n="statement.label">The atelier note</span></p>
+    <h2 class="sr-only" id="statementTitle">The atelier note</h2>
+    <p class="statement__text" id="statementText" data-i18n="statement.text">Triplicane never stops moving. Step into Noori Paradise and the market goes quiet — leaving you, the mirror, and a rail of dresses chosen with you in mind.</p>
+    <p class="statement__attrib" data-i18n="statement.attrib">— Noori Paradise, Triplicane</p>
+  </div>
+  <div class="statement__ornament" aria-hidden="true">
+    <span></span><span></span><span></span>
+  </div>
+</section>
+
+<!-- ── lookbook ──────────────────────────────────────────── -->
+<section class="lookbook w" id="lookbook" aria-labelledby="lookbookTitle">
+  <div class="section-head">
+    <p class="label" data-reveal="fade"><span>02</span><span data-i18n="look.label">The lookbook</span></p>
+    <div class="section-head__row">
+      <h2 class="display h2-mask" id="lookbookTitle"><span data-reveal="mask" data-i18n="look.title">A study in drape</span></h2>
+      <p class="section-head__copy" data-i18n="look.copy">Eight frames from the atelier — light, silk and the space between. A placeholder gallery, ready for your own photography.</p>
+    </div>
+  </div>
+
+  <div class="look-filters" id="lookFilters" role="group" aria-label="Filter the lookbook" data-i18n-aria="look.filterLabel">
+    <button type="button" data-filter="all" aria-pressed="true"><span data-i18n="look.all">All</span><em>08</em></button>
+    <button type="button" data-filter="bridal" aria-pressed="false"><span data-i18n="look.bridal">Bridal</span><em>02</em></button>
+    <button type="button" data-filter="festive" aria-pressed="false"><span data-i18n="look.festive">Festive</span><em>02</em></button>
+    <button type="button" data-filter="evening" aria-pressed="false"><span data-i18n="look.evening">Evening</span><em>02</em></button>
+    <button type="button" data-filter="everyday" aria-pressed="false"><span data-i18n="look.everyday">Everyday</span><em>02</em></button>
+  </div>
+  <p class="look-count" id="lookCount" aria-live="polite" data-i18n="look.showing" data-i18n-vars='{"count":"8","total":"8"}'>Showing 8 of 8 frames</p>
+
+  <div class="masonry" id="masonry">
+    <button class="look" type="button" data-index="0" data-cat="bridal" data-cursor="view">
+      <span class="look__media"><img src="assets/img/look1.svg" width="900" height="1200" alt="Couture illustration of a blush bridal lehenga" loading="lazy"></span>
+      <span class="look__cap"><em data-i18n="look.cap1">Blush in morning light</em><i>01</i></span>
+    </button>
+    <button class="look" type="button" data-index="1" data-cat="evening" data-cursor="view">
+      <span class="look__media"><img src="assets/img/look2.svg" width="1200" height="900" alt="Couture illustration of a wine and amber evening gown" loading="lazy"></span>
+      <span class="look__cap"><em data-i18n="look.cap2">Wine, after dark</em><i>02</i></span>
+    </button>
+    <button class="look" type="button" data-index="2" data-cat="festive" data-cursor="view">
+      <span class="look__media"><img src="assets/img/look3.svg" width="900" height="1100" alt="Couture illustration of a champagne Anarkali" loading="lazy"></span>
+      <span class="look__cap"><em data-i18n="look.cap3">Champagne, held</em><i>03</i></span>
+    </button>
+    <button class="look" type="button" data-index="3" data-cat="bridal" data-cursor="view">
+      <span class="look__media"><img src="assets/img/look4.svg" width="1000" height="1000" alt="Couture illustration of a mulberry lehenga with gold embroidery" loading="lazy"></span>
+      <span class="look__cap"><em data-i18n="look.cap4">Mulberry folds</em><i>04</i></span>
+    </button>
+    <button class="look" type="button" data-index="4" data-cat="everyday" data-cursor="view">
+      <span class="look__media"><img src="assets/img/look5.svg" width="900" height="1200" alt="Couture illustration of a sand salwar set" loading="lazy"></span>
+      <span class="look__cap"><em data-i18n="look.cap5">Sand against skin</em><i>05</i></span>
+    </button>
+    <button class="look" type="button" data-index="5" data-cat="evening" data-cursor="view">
+      <span class="look__media"><img src="assets/img/look6.svg" width="1200" height="900" alt="Couture illustration of an emerald evening gown" loading="lazy"></span>
+      <span class="look__cap"><em data-i18n="look.cap6">Emerald, in shadow</em><i>06</i></span>
+    </button>
+    <button class="look" type="button" data-index="6" data-cat="festive" data-cursor="view">
+      <span class="look__media"><img src="assets/img/look7.svg" width="900" height="1100" alt="Couture illustration of a rose kurti" loading="lazy"></span>
+      <span class="look__cap"><em data-i18n="look.cap7">A rose, unpicked</em><i>07</i></span>
+    </button>
+    <button class="look" type="button" data-index="7" data-cat="everyday" data-cursor="view">
+      <span class="look__media"><img src="assets/img/look8.svg" width="1000" height="1000" alt="Couture illustration of a gold Anarkali" loading="lazy"></span>
+      <span class="look__cap"><em data-i18n="look.cap8">Gold thread, close</em><i>08</i></span>
+    </button>
+  </div>
+  <p class="placeholder-note" data-i18n="look.note">Placeholder imagery — replace with the atelier's own photography.</p>
+</section>
+
+<!-- ── colour studio ─────────────────────────────────────── -->
+<section class="studio" id="studio" aria-labelledby="studioTitle">
+  <div class="studio__grid w">
+    <div class="studio__stage" id="studioStage" data-fabric="satin">
+      <div class="studio__stage-head">
+        <span class="label label--light"><span>✦</span><span data-i18n="studio.preview">Live preview</span></span>
+        <span class="studio__code" id="studioCode">NP · SATIN · IVORY</span>
+      </div>
+      <div class="studio__dress" id="studioDress" aria-hidden="true"></div>
+      <div class="studio__glow" aria-hidden="true"></div>
+      <span class="spark" style="--x:16%;--y:32%;--d:0s"></span>
+      <span class="spark" style="--x:76%;--y:30%;--d:1.4s"></span>
+      <span class="spark" style="--x:64%;--y:64%;--d:2.2s"></span>
+      <span class="spark" style="--x:28%;--y:72%;--d:3.1s"></span>
+      <p class="studio__caption"><span data-i18n="studio.priceOnRequest">Price on request</span><span aria-hidden="true">·</span><span data-i18n="studio.madeToMeasure">Made to measure in store</span></p>
+    </div>
+
+    <div class="studio__panel">
+      <div class="section-head section-head--flat">
+        <p class="label" data-reveal="fade"><span>03</span><span data-i18n="studio.label">Colour studio</span></p>
+        <h2 class="display h2-mask" id="studioTitle"><span data-reveal="mask" data-i18n="studio.title">Drape it your way</span></h2>
+        <p class="section-head__copy" data-i18n="studio.copy">Choose a silhouette, a shade and a fabric. Watch the piece come to life, save it, or send it to the atelier.</p>
+      </div>
+
+      <div class="control">
+        <p class="control__label" id="styleLabel" data-i18n="studio.style">Silhouette</p>
+        <div class="chips" id="styleChips" role="group" aria-labelledby="styleLabel"></div>
+      </div>
+
+      <div class="control">
+        <p class="control__label" id="fabricLabel" data-i18n="studio.fabric">Fabric</p>
+        <div class="fabrics" id="fabricChips" role="group" aria-labelledby="fabricLabel"></div>
+      </div>
+
+      <div class="control">
+        <div class="control__row"><p class="control__label" id="shadeLabel" data-i18n="studio.shade">Shade</p><p class="control__value" id="shadeName">Ivory gold</p></div>
+        <div class="swatches" id="shadeChips" role="group" aria-labelledby="shadeLabel"></div>
+      </div>
+
+      <div class="control">
+        <div class="control__row">
+          <p class="control__label" data-i18n="studio.budget">Budget guide</p>
+          <p class="control__value" id="budgetValue">Price on request</p>
+        </div>
+        <div class="range" id="budgetRange">
+          <div class="range__track"><i class="range__fill" id="rangeFill"></i></div>
+          <input type="range" id="priceMin" min="0" max="100" value="12" step="1" aria-label="Minimum budget">
+          <input type="range" id="priceMax" min="0" max="100" value="72" step="1" aria-label="Maximum budget">
+        </div>
+        <p class="control__hint" data-i18n="studio.budgetNote">Live range — add real pricing in CONFIG. Until then, shown as price on request.</p>
+      </div>
+
+      <div class="studio__actions">
+        <button class="btn btn--dark magnetic" type="button" id="studioSave">
+          <svg class="heart-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.3C7.6 16.8 4 13.6 4 9.9 4 7.2 6 5.4 8.3 5.4c1.4 0 2.7.7 3.7 2 1-1.3 2.3-2 3.7-2C18 5.4 20 7.2 20 9.9c0 3.7-3.6 6.9-8 10.4Z"/></svg>
+          <span data-i18n="studio.save">Save to wishlist</span>
+        </button>
+        <button class="btn btn--ghost magnetic" type="button" id="studioEnquire"><span data-i18n="studio.ask">Ask about this piece</span><i class="btn__arrow" aria-hidden="true">↗</i></button>
+      </div>
+
+      <div class="studio__util">
+        <button type="button" class="text-btn" id="studioShare"><span data-i18n="studio.share">Copy look link</span><i aria-hidden="true">⧉</i></button>
+        <span class="studio__util-sep" aria-hidden="true">·</span>
+        <button type="button" class="text-btn" id="studioCard"><span data-i18n="studio.card">Download look card</span><i aria-hidden="true">↓</i></button>
+      </div>
+      <p class="studio__stylenote" id="studioNote" aria-live="polite">
+        <span class="studio__stylenote-label" data-i18n="studio.noteLabel">Styling note</span>
+        <span id="studioNoteText"></span>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ── find your look ────────────────────────────────────── -->
+<section class="finder w" id="finder" aria-labelledby="finderTitle">
+  <div class="finder__intro">
+    <p class="label" data-reveal="fade"><span>04</span><span data-i18n="finder.label">Find your look</span></p>
+    <h2 class="display h2-mask" id="finderTitle"><span data-reveal="mask" data-i18n="finder.title">Three taps to your rail</span></h2>
+    <p class="finder__copy" data-i18n="finder.copy">Tell us where you are going and how you like to dress. We will point you to the right rail — show the result to our team in store.</p>
+    <div class="finder__ornament" aria-hidden="true"><span></span></div>
+  </div>
+
+  <div class="finder__quiz">
+    <fieldset class="field">
+      <legend data-i18n="finder.q1">The occasion</legend>
+      <div class="options" data-group="occasion">
+        <button type="button" class="option" data-value="wedding"><span data-i18n="finder.q1.a1">Wedding</span><i aria-hidden="true">↗</i></button>
+        <button type="button" class="option" data-value="festival"><span data-i18n="finder.q1.a2">Festival</span><i aria-hidden="true">↗</i></button>
+        <button type="button" class="option" data-value="party"><span data-i18n="finder.q1.a3">Party</span><i aria-hidden="true">↗</i></button>
+        <button type="button" class="option" data-value="everyday"><span data-i18n="finder.q1.a4">Everyday</span><i aria-hidden="true">↗</i></button>
+      </div>
+    </fieldset>
+
+    <fieldset class="field">
+      <legend data-i18n="finder.q2">How you like to dress</legend>
+      <div class="options" data-group="mood">
+        <button type="button" class="option" data-value="classic"><span data-i18n="finder.q2.a1">Classic</span><i aria-hidden="true">↗</i></button>
+        <button type="button" class="option" data-value="statement"><span data-i18n="finder.q2.a2">Statement</span><i aria-hidden="true">↗</i></button>
+        <button type="button" class="option" data-value="modest"><span data-i18n="finder.q2.a3">Modest</span><i aria-hidden="true">↗</i></button>
+      </div>
+    </fieldset>
+
+    <fieldset class="field">
+      <legend data-i18n="finder.q3">Your budget guide</legend>
+      <div class="options" data-group="budget">
+        <button type="button" class="option" data-value="low"><span data-i18n="finder.q3.a1">Entry</span><i aria-hidden="true">↗</i></button>
+        <button type="button" class="option" data-value="mid"><span data-i18n="finder.q3.a2">Mid</span><i aria-hidden="true">↗</i></button>
+        <button type="button" class="option" data-value="high"><span data-i18n="finder.q3.a3">Occasion</span><i aria-hidden="true">↗</i></button>
+      </div>
+    </fieldset>
+
+    <div class="finder__result" id="finderResult" aria-live="polite">
+      <p class="finder__empty" data-i18n="finder.empty">Choose one from each row to reveal your rail.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── occasions ─────────────────────────────────────────── -->
+<section class="occasions" id="occasions" aria-labelledby="occasionsTitle">
+  <div class="w">
+    <div class="section-head">
+      <p class="label" data-reveal="fade"><span>05</span><span data-i18n="occ.label">Occasions</span></p>
+      <div class="section-head__row">
+        <h2 class="display h2-mask" id="occasionsTitle"><span data-reveal="mask" data-i18n="occ.title">Where will you wear it?</span></h2>
+        <p class="section-head__copy" data-i18n="occ.copy">From the main day to the market run. Hover an occasion to glimpse the rail.</p>
+      </div>
+    </div>
+
+    <div class="occ__list" id="occList">
+      <a class="occ__row" href="#collections" data-preview="assets/img/bridal.svg" data-cursor="view">
+        <span class="occ__no">01</span>
+        <span class="occ__name" data-i18n="occ.1.name">Weddings</span>
+        <span class="occ__desc" data-i18n="occ.1.desc">Bridal lehengas, reception gowns and looks for the whole family.</span>
+        <span class="occ__tag" data-i18n="occ.1.tag">Bridal · family</span>
+        <img class="occ__thumb" src="assets/img/bridal.svg" width="900" height="1200" alt="" loading="lazy" aria-hidden="true">
+        <span class="occ__arrow" aria-hidden="true">↗</span>
+      </a>
+      <a class="occ__row" href="#collections" data-preview="assets/img/anarkali.svg" data-cursor="view">
+        <span class="occ__no">02</span>
+        <span class="occ__name" data-i18n="occ.2.name">Eid &amp; festivals</span>
+        <span class="occ__desc" data-i18n="occ.2.desc">Anarkalis and festive sets that stay comfortable all day.</span>
+        <span class="occ__tag" data-i18n="occ.2.tag">Festive · gifting</span>
+        <img class="occ__thumb" src="assets/img/anarkali.svg" width="900" height="1200" alt="" loading="lazy" aria-hidden="true">
+        <span class="occ__arrow" aria-hidden="true">↗</span>
+      </a>
+      <a class="occ__row" href="#collections" data-preview="assets/img/gown.svg" data-cursor="view">
+        <span class="occ__no">03</span>
+        <span class="occ__name" data-i18n="occ.3.name">Parties &amp; evenings</span>
+        <span class="occ__desc" data-i18n="occ.3.desc">Gowns and statement dresses for engagements and dinners.</span>
+        <span class="occ__tag" data-i18n="occ.3.tag">Evening · statement</span>
+        <img class="occ__thumb" src="assets/img/gown.svg" width="900" height="1200" alt="" loading="lazy" aria-hidden="true">
+        <span class="occ__arrow" aria-hidden="true">↗</span>
+      </a>
+      <a class="occ__row" href="#collections" data-preview="assets/img/salwar.svg" data-cursor="view">
+        <span class="occ__no">04</span>
+        <span class="occ__name" data-i18n="occ.4.name">Everyday wear</span>
+        <span class="occ__desc" data-i18n="occ.4.desc">Breathable salwar sets and kurtis for the days in between.</span>
+        <span class="occ__tag" data-i18n="occ.4.tag">Daily · easy</span>
+        <img class="occ__thumb" src="assets/img/salwar.svg" width="900" height="1200" alt="" loading="lazy" aria-hidden="true">
+        <span class="occ__arrow" aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </div>
+  <div class="occ__peek" id="occPeek" aria-hidden="true"><img src="assets/img/bridal.svg" width="900" height="1200" alt=""></div>
+</section>
+
+<!-- ── social proof ──────────────────────────────────────── -->
+<section class="social w" id="social" aria-labelledby="socialTitle">
+  <div class="section-head">
+    <p class="label" data-reveal="fade"><span>06</span><span data-i18n="social.label">In their words</span></p>
+    <div class="section-head__row">
+      <h2 class="display h2-mask" id="socialTitle"><span data-reveal="mask" data-i18n="social.title">Carried with love</span></h2>
+      <p class="section-head__copy" data-i18n="social.copy">A little of what we hope every visit feels like. These are sample words for the demo — replace them with real reviews.</p>
+    </div>
+  </div>
+
+  <div class="testimonials" id="testimonials">
+    <p class="sample-flag" data-i18n="social.sample">Sample testimonial — replace before launch</p>
+    <div class="testimonials__stage">
+      <article class="quote is-active" data-quote="0">
+        <p class="quote__text" data-i18n="social.q1">“I came for one dress and left with the feeling that someone had actually listened. The fitting was unhurried, and the colour was chosen for me, not for the rail.”</p>
+        <p class="quote__by"><span data-i18n="social.by1">Placeholder review 01</span><em data-i18n="social.role1">Bridal client · sample</em></p>
+      </article>
+      <article class="quote" data-quote="1">
+        <p class="quote__text" data-i18n="social.q2">“The kind of shop you tell your friends about. Quiet, warm, and full of pieces you will not see on everyone else.”</p>
+        <p class="quote__by"><span data-i18n="social.by2">Placeholder review 02</span><em data-i18n="social.role2">Festive client · sample</em></p>
+      </article>
+      <article class="quote" data-quote="2">
+        <p class="quote__text" data-i18n="social.q3">“Comfortable enough for a long day, beautiful enough for the photographs. That is a difficult balance and they found it.”</p>
+        <p class="quote__by"><span data-i18n="social.by3">Placeholder review 03</span><em data-i18n="social.role3">Occasion client · sample</em></p>
+      </article>
+    </div>
+    <div class="testimonials__controls">
+      <button type="button" class="round-btn" id="quotePrev" aria-label="Previous testimonial" data-i18n-aria="a11y.prev">←</button>
+      <div class="dots" id="quoteDots" role="group" aria-label="Testimonial slides"></div>
+      <button type="button" class="round-btn" id="quoteNext" aria-label="Next testimonial" data-i18n-aria="a11y.next">→</button>
+    </div>
+  </div>
+
+  <div class="social__grid-wrap">
+    <div class="social__grid-head">
+      <div>
+        <p class="label"><span>✦</span><span data-i18n="social.igLabel">From the atelier</span></p>
+        <h3 class="display display--sm" data-i18n="social.igTitle">A little Instagram, in place</h3>
+      </div>
+      <div class="social__grid-tools">
+        <button class="btn btn--ghost btn--sm magnetic" type="button" id="sizeOpen" aria-label="Open size guide" data-i18n-aria="social.size"><span data-i18n="social.size">Size guide</span><i class="btn__arrow" aria-hidden="true">↗</i></button>
+        <a class="ig-handle" href="https://instagram.com/" target="_blank" rel="noopener"><span>@</span><span data-i18n="social.handle">placeholder_handle</span></a>
+      </div>
+    </div>
+    <div class="ig-grid" aria-label="Sample Instagram grid">
+      <a class="ig-tile" href="https://instagram.com/" target="_blank" rel="noopener" data-cursor="open"><img src="assets/img/ig1.svg" width="1000" height="1000" alt="Sample Instagram tile — blush silk" loading="lazy"><span class="ig-tile__overlay"><i>↗</i><em data-i18n="social.igTag">Sample post</em></span></a>
+      <a class="ig-tile" href="https://instagram.com/" target="_blank" rel="noopener" data-cursor="open"><img src="assets/img/ig2.svg" width="1000" height="1000" alt="Sample Instagram tile — wine silk" loading="lazy"><span class="ig-tile__overlay"><i>↗</i><em data-i18n="social.igTag">Sample post</em></span></a>
+      <a class="ig-tile" href="https://instagram.com/" target="_blank" rel="noopener" data-cursor="open"><img src="assets/img/ig3.svg" width="1000" height="1000" alt="Sample Instagram tile — champagne silk" loading="lazy"><span class="ig-tile__overlay"><i>↗</i><em data-i18n="social.igTag">Sample post</em></span></a>
+      <a class="ig-tile" href="https://instagram.com/" target="_blank" rel="noopener" data-cursor="open"><img src="assets/img/ig4.svg" width="1000" height="1000" alt="Sample Instagram tile — mulberry silk" loading="lazy"><span class="ig-tile__overlay"><i>↗</i><em data-i18n="social.igTag">Sample post</em></span></a>
+      <a class="ig-tile" href="https://instagram.com/" target="_blank" rel="noopener" data-cursor="open"><img src="assets/img/look4.svg" width="1000" height="1000" alt="Sample Instagram tile — rose silk" loading="lazy"><span class="ig-tile__overlay"><i>↗</i><em data-i18n="social.igTag">Sample post</em></span></a>
+      <a class="ig-tile" href="https://instagram.com/" target="_blank" rel="noopener" data-cursor="open"><img src="assets/img/look8.svg" width="1000" height="1000" alt="Sample Instagram tile — gold thread" loading="lazy"><span class="ig-tile__overlay"><i>↗</i><em data-i18n="social.igTag">Sample post</em></span></a>
+    </div>
+    <p class="placeholder-note" data-i18n="social.igNote">Placeholder grid — connect the real Instagram account in CONFIG.</p>
+  </div>
+</section>
+
+<!-- ── faq ───────────────────────────────────────────────── -->
+<section class="faq w" id="faq" aria-labelledby="faqTitle">
+  <div class="section-head">
+    <p class="label" data-reveal="fade"><span>07</span><span data-i18n="faq.label">Before you visit</span></p>
+    <div class="section-head__row">
+      <h2 class="display h2-mask" id="faqTitle"><span data-reveal="mask" data-i18n="faq.title">The questions we hear most</span></h2>
+      <p class="section-head__copy" data-i18n="faq.copy">A few honest answers. For anything else, message the atelier.</p>
+    </div>
+  </div>
+
+  <div class="faq__list">
+    <details class="faq__item">
+      <summary><span data-i18n="faq.q1">Do I need an appointment?</span><i aria-hidden="true"></i></summary>
+      <div class="faq__a"><p data-i18n="faq.a1">No. Walk in during opening hours and we will help you. For bridal, message ahead so the fitting room and time are kept for you.</p></div>
+    </details>
+    <details class="faq__item">
+      <summary><span data-i18n="faq.q2">How long should I allow?</span><i aria-hidden="true"></i></summary>
+      <div class="faq__a"><p data-i18n="faq.a2">It depends on the piece and the alterations. Tell us what you are looking for and we will plan the visit around you rather than rush it.</p></div>
+    </details>
+    <details class="faq__item">
+      <summary><span data-i18n="faq.q3">Do you alter and make to measure?</span><i aria-hidden="true"></i></summary>
+      <div class="faq__a"><p data-i18n="faq.a3">Yes. Fitting and alterations are part of how we work. Bring the piece back for a second fitting if it needs one — we would rather it sat perfectly.</p></div>
+    </details>
+    <details class="faq__item">
+      <summary><span data-i18n="faq.q4">Can I see prices before I visit?</span><i aria-hidden="true"></i></summary>
+      <div class="faq__a"><p data-i18n="faq.a4">Price depends on fabric, embroidery and fit. This demo shows price on request; in store we will show you options at the budget you name.</p></div>
+    </details>
+    <details class="faq__item">
+      <summary><span data-i18n="faq.q5">Do you deliver outside Chennai?</span><i aria-hidden="true"></i></summary>
+      <div class="faq__a"><p data-i18n="faq.a5">Ask the atelier when you message. Delivery and courier options depend on the piece and where it is going.</p></div>
+    </details>
+    <details class="faq__item">
+      <summary><span data-i18n="faq.q6">What should I bring to a bridal fitting?</span><i aria-hidden="true"></i></summary>
+      <div class="faq__a"><p data-i18n="faq.a6">Bring the shoes and jewellery you plan to wear, any inspiration photographs, and the people whose opinion matters. It makes the fitting much easier.</p></div>
+    </details>
+  </div>
+  <a class="faq__more text-btn magnetic" href="#" id="faqWhats"><span data-i18n="faq.more">Still wondering? Message the atelier</span><i aria-hidden="true">↗</i></a>
+</section>
+
+<!-- ── visit ─────────────────────────────────────────────── -->
+<section class="visit" id="visit" aria-labelledby="visitTitle">
+  <div class="w visit__grid">
+    <div class="visit__info">
+      <p class="label" data-reveal="fade"><span>08</span><span data-i18n="visit.label">Visit</span></p>
+      <h2 class="display h2-mask" id="visitTitle"><span data-reveal="mask" data-i18n="visit.title">Come in, try it on.</span></h2>
+      <p class="visit__copy" data-i18n="visit.copy">Find us on the busy stretch of Triplicane High Road. Take your time — we will help you find the one.</p>
+      <address class="visit__address">
+        <span data-i18n="visit.addressLabel">The atelier</span>
+        <strong>23, 377F+HJH, 53/1, Triplicane High Rd,<br>Ellis Puram, Padupakkam, Triplicane,<br>Chennai, Tamil Nadu 600005</strong>
+      </address>
+      <div class="visit__hours">
+        <div class="visit__hours-head">
+          <span data-i18n="visit.hoursTitle">Opening hours</span>
+          <span class="status" id="visitStatus" data-state="unknown"><i aria-hidden="true"></i><span data-i18n="status.unknown">Hours in store</span></span>
+        </div>
+        <ul class="hours" id="hoursList"></ul>
+        <p class="visit__clock"><span data-i18n="visit.localTime">Chennai time</span> <b id="chennaiTime">--:--</b></p>
+        <p class="placeholder-note" data-i18n="visit.hoursNote">Hours are not set in this demo. Add them in CONFIG to switch on the live open / closed badge.</p>
+      </div>
+      <div class="visit__actions">
+        <button class="btn btn--dark magnetic" type="button" id="bookOpen"><span data-i18n="book.cta">Book a fitting</span><i class="btn__arrow" aria-hidden="true">↗</i></button>
+        <a class="btn btn--ghost magnetic" id="visitWhats" href="#"><span data-i18n="visit.whats">Message the atelier</span><i class="btn__arrow" aria-hidden="true">↗</i></a>
+        <a class="btn btn--line magnetic" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Noori+Paradise+Triplicane+High+Rd+Chennai+600005"><span data-i18n="visit.directions">Get directions</span><i class="btn__arrow" aria-hidden="true">↗</i></a>
+      </div>
+    </div>
+
+    <div class="visit__map-wrap">
+      <div class="visit__map">
+        <iframe title="Map to Noori Paradise, Triplicane High Road, Chennai" src="https://www.google.com/maps?q=Noori+Paradise+Triplicane+High+Rd+Chennai+600005&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        <div class="visit__map-card">
+          <span class="label label--light"><span>✦</span><span data-i18n="visit.mapLabel">Find the door</span></span>
+          <p>Triplicane High Rd<br>Chennai 600005</p>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Noori+Paradise+Triplicane+High+Rd+Chennai+600005" target="_blank" rel="noopener" data-cursor="open">Google Maps <i aria-hidden="true">↗</i></a>
+        </div>
+      </div>
+      <figure class="visit__photo">
+        <img src="assets/img/store.svg" width="1400" height="950" alt="Couture illustration of the Noori Paradise atelier with three dresses in arched alcoves" loading="lazy">
+        <figcaption data-i18n="visit.photoCap">The atelier · placeholder image</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ── footer ────────────────────────────────────────────── -->
+<footer class="footer" id="footer">
+  <div class="footer__mark-wrap" aria-hidden="true">
+    <div class="footer__mark" id="footerMark">Noori Paradise</div>
+  </div>
+  <div class="footer__grid w">
+    <div class="footer__brand">
+      <p class="footer__word">Noori Paradise</p>
+      <p data-i18n="footer.blurb">A quiet dress atelier on Triplicane High Road, Chennai. Bridal, festive and everyday, chosen slowly.</p>
+      <p class="footer__note" data-i18n="footer.note">Demo website concept · placeholder content throughout</p>
+    </div>
+    <div class="footer__col">
+      <p class="footer__head" data-i18n="footer.explore">Explore</p>
+      <a href="#collections" data-i18n="nav.collections">Collections</a>
+      <a href="#studio" data-i18n="nav.studio">Colour studio</a>
+      <a href="#lookbook" data-i18n="nav.lookbook">Lookbook</a>
+      <a href="#finder" data-i18n="nav.finder">Find your look</a>
+    </div>
+    <div class="footer__col">
+      <p class="footer__head" data-i18n="footer.visit">Visit</p>
+      <a href="#visit" data-i18n="nav.visit">Visit</a>
+      <a href="#" id="footerWhats"><span data-i18n="footer.whats">WhatsApp</span> ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Noori+Paradise+Triplicane+High+Rd+Chennai+600005" target="_blank" rel="noopener"><span data-i18n="footer.directions">Directions</span> ↗</a>
+      <a href="#social" id="footerSize" data-i18n="social.size">Size guide</a>
+    </div>
+    <div class="footer__col">
+      <p class="footer__head" data-i18n="footer.contact">Contact</p>
+      <a href="#" class="footer__placeholder" data-i18n="footer.phonePlaceholder">Phone — to be added</a>
+      <a href="#" class="footer__placeholder" data-i18n="footer.emailPlaceholder">Email — to be added</a>
+      <a href="https://instagram.com/" target="_blank" rel="noopener"><span>Instagram</span> ↗</a>
+      <button class="footer__top" type="button" id="backTop"><span data-i18n="footer.top">Back to top</span> ↑</button>
+    </div>
+  </div>
+  <div class="footer__bottom w">
+    <span>© <span id="year">2026</span> Noori Paradise</span>
+    <span data-i18n="footer.credit">Concept &amp; build — a portfolio demonstration</span>
+    <span class="footer__demo" data-i18n="footer.demo">Not a live shop</span>
+  </div>
+</footer>
+
+<a class="mobile-cta magnetic" href="#" id="mobileWhats"><span data-i18n="visit.whats">Message the atelier</span><i aria-hidden="true">↗</i></a>
+
+<!-- ── wishlist drawer ───────────────────────────────────── -->
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="wishDrawer" role="dialog" aria-modal="true" aria-labelledby="wishTitle" aria-hidden="true" inert>
+  <div class="drawer__head">
+    <div>
+      <p class="label"><span>✦</span><span data-i18n="wish.label">Your edit</span></p>
+      <h2 class="display display--sm" id="wishTitle" data-i18n="wish.title">The wishlist</h2>
+    </div>
+      <button class="round-btn" type="button" id="wishClose" aria-label="Close wishlist" data-i18n-aria="a11y.close">×</button>
+  </div>
+  <div class="drawer__body" id="wishBody">
+    <p class="wish-empty" data-i18n="wish.empty">Nothing saved yet. Choose a silhouette in the colour studio and tap the heart.</p>
+  </div>
+  <div class="drawer__foot">
+    <p class="drawer__note" data-i18n="wish.note">Saved on this device only. Send the edit to the atelier when you are ready.</p>
+    <button class="btn btn--dark magnetic" type="button" id="wishEnquire"><span data-i18n="wish.enquire">Enquire about this edit</span><i class="btn__arrow" aria-hidden="true">↗</i></button>
+    <button class="btn btn--ghost magnetic" type="button" id="wishPlan"><span data-i18n="wish.plan">Plan a fitting with this edit</span><i class="btn__arrow" aria-hidden="true">↗</i></button>
+    <button class="text-btn" type="button" id="wishClear" data-i18n="wish.clear">Clear wishlist</button>
+  </div>
+</aside>
+
+<!-- ── size guide ────────────────────────────────────────── -->
+<div class="modal" id="sizeModal" role="dialog" aria-modal="true" aria-labelledby="sizeTitle" aria-hidden="true">
+  <div class="modal__panel">
+    <div class="modal__head">
+      <div>
+        <p class="label"><span>✦</span><span data-i18n="size.label">Fit notes</span></p>
+        <h2 class="display display--sm" id="sizeTitle" data-i18n="size.title">Size guide</h2>
+      </div>
+      <button class="round-btn" type="button" id="sizeClose" aria-label="Close size guide" data-i18n-aria="a11y.close">×</button>
+    </div>
+    <p class="modal__copy" data-i18n="size.copy">Indicative measurements in inches, for guidance only. Every piece is fitted in store — this is the part we do not rush.</p>
+    <p class="sample-flag" data-i18n="size.sample">Sample measurements — confirm with the atelier</p>
+    <div class="size-table-wrap">
+      <table class="size-table">
+        <thead><tr><th data-i18n="size.colSize">Size</th><th data-i18n="size.colBust">Bust</th><th data-i18n="size.colWaist">Waist</th><th data-i18n="size.colHip">Hip</th></tr></thead>
+        <tbody>
+          <tr><td>XS</td><td>32</td><td>26</td><td>35</td></tr>
+          <tr><td>S</td><td>34</td><td>28</td><td>37</td></tr>
+          <tr><td>M</td><td>36</td><td>30</td><td>39</td></tr>
+          <tr><td>L</td><td>38</td><td>32</td><td>41</td></tr>
+          <tr><td>XL</td><td>40</td><td>34</td><td>43</td></tr>
+          <tr><td>XXL</td><td>42</td><td>36</td><td>45</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="modal__note" data-i18n="size.note">Between sizes? Choose the larger and let the atelier take it in. Alterations are discussed in store.</p>
+    <a class="btn btn--dark magnetic" href="#" id="sizeWhats"><span data-i18n="size.ask">Ask about fit</span><i class="btn__arrow" aria-hidden="true">↗</i></a>
+  </div>
+</div>
+
+<!-- ── book a fitting ────────────────────────────────────── -->
+<div class="modal" id="bookModal" role="dialog" aria-modal="true" aria-labelledby="bookTitle" aria-hidden="true">
+  <div class="modal__panel modal__panel--book">
+    <div class="modal__head">
+      <div>
+        <p class="label"><span>✦</span><span data-i18n="book.label">Private fitting</span></p>
+        <h2 class="display display--sm" id="bookTitle" data-i18n="book.title">Reserve a time with us</h2>
+      </div>
+      <button class="round-btn" type="button" id="bookClose" aria-label="Close booking form" data-i18n-aria="a11y.close">×</button>
+    </div>
+    <p class="modal__copy" data-i18n="book.copy">Tell us when you would like to come in. We will confirm on WhatsApp — no payment, no obligation.</p>
+    <form id="bookForm" novalidate>
+      <div class="book__row">
+        <label class="book__field">
+          <span data-i18n="book.name">Your name</span>
+          <input type="text" id="bookName" name="name" autocomplete="name" required>
+        </label>
+        <label class="book__field">
+          <span data-i18n="book.phone">Phone (optional)</span>
+          <input type="tel" id="bookPhone" name="phone" autocomplete="tel">
+        </label>
+      </div>
+      <div class="book__row">
+        <label class="book__field">
+          <span data-i18n="book.date">Preferred day</span>
+          <input type="date" id="bookDate" name="date" required>
+        </label>
+        <label class="book__field">
+          <span data-i18n="book.time">Preferred time</span>
+          <input type="time" id="bookTime" name="time" required>
+        </label>
+      </div>
+      <label class="book__field">
+        <span data-i18n="book.occasion">Occasion</span>
+        <select id="bookOccasion" name="occasion">
+          <option value="bridal" data-i18n="book.occ.bridal">Bridal</option>
+          <option value="festive" data-i18n="book.occ.festive">Festive</option>
+          <option value="evening" data-i18n="book.occ.evening">Evening</option>
+          <option value="everyday" data-i18n="book.occ.everyday">Everyday</option>
+          <option value="unsure" data-i18n="book.occ.unsure" selected>Not sure yet</option>
+        </select>
+      </label>
+      <label class="book__field">
+        <span data-i18n="book.note">Anything we should know?</span>
+        <textarea id="bookNote" name="note" rows="3"></textarea>
+      </label>
+      <button class="btn btn--dark magnetic" type="submit"><span data-i18n="book.submit">Send request on WhatsApp</span><i class="btn__arrow" aria-hidden="true">↗</i></button>
+    </form>
+    <p class="modal__note book__small" data-i18n="book.small">This demo opens WhatsApp with your request. Add the studio number in CONFIG to send it directly.</p>
+  </div>
+</div>
+
+<!-- ── lightbox ──────────────────────────────────────────── -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Lookbook frame" aria-hidden="true">
+  <div class="lightbox__top">
+    <p class="lightbox__brand">Noori Paradise <span>— The lookbook</span></p>
+    <button class="round-btn round-btn--light" type="button" id="lbClose" aria-label="Close lookbook" data-i18n-aria="a11y.close">×</button>
+  </div>
+  <div class="lightbox__stage">
+    <img id="lbImage" src="assets/img/look1.svg" width="900" height="1200" alt="">
+    <div class="lightbox__shade" aria-hidden="true"></div>
+  </div>
+  <div class="lightbox__thumbs" id="lbThumbs" role="group" aria-label="Lookbook frames" data-i18n-aria="look.filterLabel"></div>
+  <div class="lightbox__bar">
+    <button class="round-btn round-btn--light" type="button" id="lbPrev" aria-label="Previous frame" data-i18n-aria="a11y.prev">←</button>
+    <p>
+      <span><span id="lbCount">01 / 08</span><em id="lbCaption">Blush in morning light</em></span>
+      <button class="text-btn text-btn--light magnetic" type="button" id="lbEnquire"><span data-i18n="look.enquire">Enquire about this look</span><i aria-hidden="true">↗</i></button>
+    </p>
+    <button class="round-btn round-btn--light" type="button" id="lbNext" aria-label="Next frame" data-i18n-aria="a11y.next">→</button>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js" defer></script>
+<script src="js/silk.js" defer></script>
+<script src="js/i18n.js" defer></script>
+<script src="js/i18n-ur.js" defer></script>
+<script src="js/main.js" defer></script>
+<script src="js/dress.js" defer></script>
+<script src="js/experience.js" defer></script>
+<script src="js/atelier.js" defer></script>
+</body>
+</html>

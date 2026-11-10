@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-label="IG 03 — couture illustration">
+<defs>
+  <linearGradient id="ig3bg" x1="0" y1="0" x2=".9" y2="1">
+    <stop offset="0" stop-color="#F0E4D6"/><stop offset=".55" stop-color="#DCC6AC"/><stop offset="1" stop-color="#B99B78"/>
+  </linearGradient>
+  <radialGradient id="ig3halo" cx=".5" cy=".38" r=".6">
+    <stop offset="0" stop-color="#C9A45E" stop-opacity=".5"/>
+    <stop offset=".5" stop-color="#C9A45E" stop-opacity=".16"/>
+    <stop offset="1" stop-color="#C9A45E" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="ig3fab" x1="0" y1="0" x2="1" y2=".2">
+    <stop offset="0" stop-color="#96702E"/><stop offset=".18" stop-color="#E2C28A"/><stop offset=".42" stop-color="#FFFAE8"/>
+    <stop offset=".62" stop-color="#E2C28A"/><stop offset=".82" stop-color="#FFFAE8"/><stop offset="1" stop-color="#96702E"/>
+  </linearGradient>
+  <linearGradient id="ig3shade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity=".26"/><stop offset=".46" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity=".38"/>
+  </linearGradient>
+  <linearGradient id="ig3sheen" x1="-.4" y1="0" x2=".2" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".46" stop-color="#fff" stop-opacity=".4"/>
+    <stop offset=".62" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="ig3gold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#C9A45E" stop-opacity=".55"/><stop offset=".4" stop-color="#FFF1C6"/>
+    <stop offset=".68" stop-color="#C9A45E"/><stop offset="1" stop-color="#C9A45E" stop-opacity=".5"/>
+  </linearGradient>
+  <linearGradient id="ig3dup" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFF" stop-opacity=".5"/><stop offset=".5" stop-color="#FFFAE8" stop-opacity=".34"/>
+    <stop offset="1" stop-color="#FFF" stop-opacity=".14"/>
+  </linearGradient>
+  <linearGradient id="ig3form" x1="0" y1="0" x2="1" y2=".3">
+    <stop offset="0" stop-color="#6B564E"/><stop offset=".42" stop-color="#C3AC9E"/><stop offset=".72" stop-color="#8B7264"/><stop offset="1" stop-color="#5C4840"/>
+  </linearGradient>
+  <radialGradient id="ig3vel" cx=".34" cy=".2" r=".9">
+    <stop offset="0" stop-color="#fff" stop-opacity=".2"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity=".4"/>
+  </radialGradient>
+  <pattern id="ig3weave" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+    <line x1="0" y1="0" x2="0" y2="6" stroke="#FFF" stroke-opacity=".16" stroke-width=".7"/>
+    <line x1="3" y1="0" x2="3" y2="6" stroke="#000" stroke-opacity=".07" stroke-width=".6"/>
+  </pattern>
+  <pattern id="ig3sequin" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(18)">
+    <circle cx="3" cy="3" r=".95" fill="#C9A45E" fill-opacity=".6"/>
+    <circle cx="7.5" cy="7.5" r=".6" fill="#FFF" fill-opacity=".55"/>
+  </pattern>
+  <filter id="ig3soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="26"/></filter>
+  <filter id="ig3shadow" x="-30%" y="-20%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000" flood-opacity=".22"/>
+  </filter>
+  <filter id="ig3grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".86" numOctaves="3" stitchTiles="stitch" seed="24"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope=".14"/></feComponentTransfer>
+  </filter>
+</defs>
+<rect width="1000" height="1000" fill="url(#ig3bg)"/>
+<ellipse cx="500" cy="420" rx="520" ry="500" fill="url(#ig3halo)"/>
+<g opacity="0.5" fill="none" stroke="#C9A45E">
+    <path d="M250 900V270A250 250 0 0 1 750 270V900" stroke-width="1.2"/>
+    <path d="M260 900V275A240 240 0 0 1 740 275V900" stroke-width=".6" opacity=".6"/>
+  </g>
+<g opacity="0.42" stroke="#C9A45E" fill="none">
+    <circle cx="500" cy="75" r="12" stroke-width="1"/>
+    <path d="M500 47v14M500 89v14" stroke-width="1"/>
+    <path d="M100 160q25 20 50 0" stroke-width=".8"/>
+    <path d="M850 160q25 20 50 0" stroke-width=".8"/>
+  </g>
+<ellipse cx="500" cy="788.6559139784947" rx="180.6451612903226" ry="24.46236559139785" fill="#000" opacity="0.14" filter="url(#ig3soft)"/>
+<g transform="translate(311.8 115.0) scale(1.882)" filter="url(#ig3shadow)">
+    <g class="np-form">
+    <path d="M94 40q0-5 6-5t6 5v16q15 3 24 15l8 25q4 16 2 35-2 20-8 33H68q-6-13-8-33-2-19 2-35l8-25q9-12 24-15z" fill="url(#ig3form)"/>
+    <path d="M95 53q5 3 10 0" fill="none" stroke="#FFF" stroke-opacity=".16" stroke-width="1"/>
+    <path d="M87 74q-5 34-5 68M113 74q5 34 5 68" fill="none" stroke="#FFF" stroke-opacity=".08" stroke-width="1"/>
+    <path d="M100 100v70" fill="none" stroke="#000" stroke-opacity=".2" stroke-width="1"/>
+    <circle cx="100" cy="35" r="3.6" fill="url(#ig3gold)" opacity=".92"/>
+    <path d="M100 39v6" stroke="url(#ig3gold)" stroke-width="1.4" opacity=".8"/>
+    <path d="M96 190h8v162h-8z" fill="url(#ig3form)" opacity=".9"/>
+    <ellipse cx="100" cy="354" rx="34" ry="7" fill="#000" opacity=".26"/>
+    <path d="M66 352h68M78 359h44" stroke="#000" stroke-opacity=".22" stroke-width="2"/>
+  </g>
+    <path d="M136 70Q180 160 176 280Q174 336 148 366Q166 262 128 120Z" fill="url(#ig3dup)" opacity=".5"/>
+    <path d="M70 96Q78 84 88 92Q94 98 100 88Q106 98 112 92Q122 84 130 96L130 146Q100 158 70 146Z" fill="url(#ig3fab)"/><path d="M70 96Q78 84 88 92Q94 98 100 88Q106 98 112 92Q122 84 130 96L130 146Q100 158 70 146Z" fill="url(#ig3shade)" opacity=".42"/><path d="M70 96Q78 84 88 92Q94 98 100 88Q106 98 112 92Q122 84 130 96L130 146Q100 158 70 146Z" fill="url(#ig3sheen)" opacity=".9"/><path d="M70 96Q78 84 88 92Q94 98 100 88Q106 98 112 92Q122 84 130 96" fill="none" stroke="url(#ig3gold)" stroke-width="1.6"/><path d="M70 146Q100 156 130 146Q128 208 126 234Q176 300 182 352Q100 368 18 352Q24 300 74 234Q72 208 70 146Z" fill="url(#ig3fab)"/><path d="M70 146Q100 156 130 146Q128 208 126 234Q176 300 182 352Q100 368 18 352Q24 300 74 234Q72 208 70 146Z" fill="url(#ig3shade)" opacity=".48"/><path d="M70 146Q100 156 130 146Q128 208 126 234Q176 300 182 352Q100 368 18 352Q24 300 74 234Q72 208 70 146Z" fill="url(#ig3sheen)" opacity=".92"/><path d="M70 146Q100 156 130 146Q128 208 126 234Q176 300 182 352Q100 368 18 352Q24 300 74 234Q72 208 70 146Z" fill="url(#ig3weave)" opacity=".6"/><path d="M64 98Q76 84 88 92Q94 98 100 88Q106 98 112 92Q124 84 136 98" fill="none" stroke="url(#ig3gold)" stroke-width=".7" opacity=".55" stroke-dasharray="1 3"/><path d="M100 148V326" fill="none" stroke="#FFF" stroke-opacity=".2" stroke-width="1"/><path d="M100 234Q108 300 126 354" fill="none" stroke="#FFF" stroke-opacity=".32" stroke-width="1"/><path d="M100 234Q96 300 88 356" fill="none" stroke="#000" stroke-opacity=".2" stroke-width="1"/><path d="M86 158Q70 260 46 352" fill="none" stroke="#FFF" stroke-opacity="0.26" stroke-width="0.9" stroke-linecap="round"/><path d="M114 158Q132 260 156 352" fill="none" stroke="#FFF" stroke-opacity="0.26" stroke-width="0.9" stroke-linecap="round"/><path d="M78 154Q52 258 28 350" fill="none" stroke="#000" stroke-opacity="0.18" stroke-width="1.1" stroke-linecap="round"/><path d="M122 154Q150 258 174 350" fill="none" stroke="#000" stroke-opacity="0.18" stroke-width="1.1" stroke-linecap="round"/><path d="M92 156Q82 258 70 354" fill="none" stroke="#FFF" stroke-opacity="0.18" stroke-width="0.9" stroke-linecap="round"/><path d="M108 156Q118 258 130 354" fill="none" stroke="#FFF" stroke-opacity="0.18" stroke-width="0.9" stroke-linecap="round"/><path d="M18 352Q100 368 182 352" fill="none" stroke="url(#ig3gold)" stroke-width="1.5"/><path d="M30 338Q100 354 170 338" fill="none" stroke="url(#ig3gold)" stroke-width=".8" opacity=".7"/><path d="M84 152Q100 164 116 152" fill="none" stroke="url(#ig3gold)" stroke-width="1.3"/><path d="M76 236Q100 246 124 236" fill="none" stroke="url(#ig3gold)" stroke-width="1" opacity=".7"/>
+    <path d="M88 92Q94 98 100 88Q106 98 112 92" fill="none" stroke="#FFF" stroke-opacity=".3" stroke-width=".8"/><g transform="translate(80 280) rotate(-8) scale(1.15)" fill="none" stroke="#C9A45E" stroke-width="1.15" stroke-linecap="round" opacity=".95">
+    <path d="M0 4C1 12 1 20 3 28"/>
+    <path d="M1 13c-5-2-8-7-8-13 6 1 9 6 8 13z" fill="#C9A45E" fill-opacity=".22"/>
+    <path d="M2 21c5-2 8-7 8-13-6 1-9 6-8 13z" fill="#C9A45E" fill-opacity=".22"/>
+    <g transform="translate(1 -5)">
+      <circle cx="0" cy="-6.4" r="2.9"/>
+      <circle cx="6.1" cy="-2" r="2.9"/>
+      <circle cx="3.8" cy="5.2" r="2.9"/>
+      <circle cx="-3.8" cy="5.2" r="2.9"/>
+      <circle cx="-6.1" cy="-2" r="2.9"/>
+      <circle r="2.2" fill="#C9A45E" fill-opacity=".55"/>
+    </g>
+    <g fill="#C9A45E" opacity=".8"><circle cx="10" cy="6" r=".8"/><circle cx="-7" cy="11" r=".7"/></g>
+  </g><g transform="translate(118 226) rotate(6) scale(0.9)" fill="none" stroke="#C9A45E" stroke-width="1.15" stroke-linecap="round" opacity=".95">
+    <path d="M0 4C1 12 1 20 3 28"/>
+    <path d="M1 13c-5-2-8-7-8-13 6 1 9 6 8 13z" fill="#C9A45E" fill-opacity=".22"/>
+    <path d="M2 21c5-2 8-7 8-13-6 1-9 6-8 13z" fill="#C9A45E" fill-opacity=".22"/>
+    <g transform="translate(1 -5)">
+      <circle cx="0" cy="-6.4" r="2.9"/>
+      <circle cx="6.1" cy="-2" r="2.9"/>
+      <circle cx="3.8" cy="5.2" r="2.9"/>
+      <circle cx="-3.8" cy="5.2" r="2.9"/>
+      <circle cx="-6.1" cy="-2" r="2.9"/>
+      <circle r="2.2" fill="#C9A45E" fill-opacity=".55"/>
+    </g>
+    <g fill="#C9A45E" opacity=".8"><circle cx="10" cy="6" r=".8"/><circle cx="-7" cy="11" r=".7"/></g>
+  </g><g fill="#C9A45E" opacity=".7"><circle cx="78" cy="196" r="1"/><circle cx="122" cy="210" r="1"/><circle cx="90" cy="252" r="1.1"/><circle cx="116" cy="292" r="1"/></g><circle cx="100" cy="168" r="2.2" fill="url(#ig3gold)"/><circle cx="100" cy="168" r="4" fill="none" stroke="url(#ig3gold)" stroke-width=".7" opacity=".7"/><g fill="none" stroke="#C9A45E" stroke-width="1.1" opacity=".95">
+    <path d="M92 56q8 16 16 0"/>
+    <path d="M95 60q5 9 10 0" stroke-width=".7" opacity=".8"/>
+    <circle cx="100" cy="70" r="2.2" fill="#C9A45E" stroke="none"/>
+    <circle cx="100" cy="70" r="3.8" stroke-width=".6" opacity=".7"/>
+  </g>
+  </g>
+<rect x="40" y="35" width="920" height="930" fill="none" stroke="rgba(74,42,32,.35)" stroke-width="1"/>
+<g fill="#5C3E18" font-family="Georgia, 'Times New Roman', serif">
+    <text x="75" y="945" font-size="21" letter-spacing="6" opacity=".9">NOORI PARADISE</text>
+    <text x="75" y="976.5" font-size="14" letter-spacing="5" opacity=".55">IG 03 · ATELIER ILLUSTRATION</text>
+  </g>
+  <path d="M75 898.8h100" stroke="#C9A45E" stroke-width="1" opacity=".7"/>
+<rect width="1000" height="1000" filter="url(#ig3grain)" opacity=".5" style="mix-blend-mode:soft-light"/>
+<rect width="1000" height="1000" fill="none" stroke="#F0E4D6" stroke-opacity=".2" stroke-width="2"/>
+</svg>

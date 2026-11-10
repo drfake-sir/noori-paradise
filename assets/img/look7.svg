@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="LOOK 07 — couture illustration">
+<defs>
+  <linearGradient id="look7bg" x1="0" y1="0" x2=".9" y2="1">
+    <stop offset="0" stop-color="#F3E7E9"/><stop offset=".55" stop-color="#E2C8CE"/><stop offset="1" stop-color="#C39AA5"/>
+  </linearGradient>
+  <radialGradient id="look7halo" cx=".5" cy=".38" r=".6">
+    <stop offset="0" stop-color="#C9A45E" stop-opacity=".5"/>
+    <stop offset=".5" stop-color="#C9A45E" stop-opacity=".16"/>
+    <stop offset="1" stop-color="#C9A45E" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="look7fab" x1="0" y1="0" x2="1" y2=".2">
+    <stop offset="0" stop-color="#9C5068"/><stop offset=".18" stop-color="#EDC4CF"/><stop offset=".42" stop-color="#FFF7F8"/>
+    <stop offset=".62" stop-color="#EDC4CF"/><stop offset=".82" stop-color="#FFF7F8"/><stop offset="1" stop-color="#9C5068"/>
+  </linearGradient>
+  <linearGradient id="look7shade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity=".26"/><stop offset=".46" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity=".38"/>
+  </linearGradient>
+  <linearGradient id="look7sheen" x1="-.4" y1="0" x2=".2" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".46" stop-color="#fff" stop-opacity=".4"/>
+    <stop offset=".62" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="look7gold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#C9A45E" stop-opacity=".55"/><stop offset=".4" stop-color="#FFF1C6"/>
+    <stop offset=".68" stop-color="#C9A45E"/><stop offset="1" stop-color="#C9A45E" stop-opacity=".5"/>
+  </linearGradient>
+  <linearGradient id="look7dup" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFF" stop-opacity=".5"/><stop offset=".5" stop-color="#FFF7F8" stop-opacity=".34"/>
+    <stop offset="1" stop-color="#FFF" stop-opacity=".14"/>
+  </linearGradient>
+  <linearGradient id="look7form" x1="0" y1="0" x2="1" y2=".3">
+    <stop offset="0" stop-color="#6B564E"/><stop offset=".42" stop-color="#C3AC9E"/><stop offset=".72" stop-color="#8B7264"/><stop offset="1" stop-color="#5C4840"/>
+  </linearGradient>
+  <radialGradient id="look7vel" cx=".34" cy=".2" r=".9">
+    <stop offset="0" stop-color="#fff" stop-opacity=".2"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity=".4"/>
+  </radialGradient>
+  <pattern id="look7weave" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+    <line x1="0" y1="0" x2="0" y2="6" stroke="#FFF" stroke-opacity=".16" stroke-width=".7"/>
+    <line x1="3" y1="0" x2="3" y2="6" stroke="#000" stroke-opacity=".07" stroke-width=".6"/>
+  </pattern>
+  <pattern id="look7sequin" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(18)">
+    <circle cx="3" cy="3" r=".95" fill="#C9A45E" fill-opacity=".6"/>
+    <circle cx="7.5" cy="7.5" r=".6" fill="#FFF" fill-opacity=".55"/>
+  </pattern>
+  <filter id="look7soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="23"/></filter>
+  <filter id="look7shadow" x="-30%" y="-20%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="7" stdDeviation="11" flood-color="#000" flood-opacity=".22"/>
+  </filter>
+  <filter id="look7grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".86" numOctaves="3" stitchTiles="stitch" seed="38"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope=".14"/></feComponentTransfer>
+  </filter>
+</defs>
+<rect width="900" height="1100" fill="url(#look7bg)"/>
+<ellipse cx="450" cy="462" rx="468" ry="550" fill="url(#look7halo)"/>
+<g opacity="0.5" fill="none" stroke="#C9A45E">
+    <path d="M175 990V297A275 275 0 0 1 725 297V990" stroke-width="1.2"/>
+    <path d="M185 990V302.5A265 265 0 0 1 715 302.5V990" stroke-width=".6" opacity=".6"/>
+  </g>
+<g opacity="0.42" stroke="#C9A45E" fill="none">
+    <circle cx="450" cy="82.5" r="10.8" stroke-width="1"/>
+    <path d="M450 57.3v12.6M450 95.1v12.6" stroke-width="1"/>
+    <path d="M90 176q22.5 22 45 0" stroke-width=".8"/>
+    <path d="M765 176q22.5 22 45 0" stroke-width=".8"/>
+  </g>
+<ellipse cx="450" cy="867.5215053763441" rx="198.70967741935482" ry="26.908602150537632" fill="#000" opacity="0.14" filter="url(#look7soft)"/>
+<g transform="translate(243.0 126.5) scale(2.070)" filter="url(#look7shadow)">
+    <g class="np-form">
+    <path d="M94 40q0-5 6-5t6 5v16q15 3 24 15l8 25q4 16 2 35-2 20-8 33H68q-6-13-8-33-2-19 2-35l8-25q9-12 24-15z" fill="url(#look7form)"/>
+    <path d="M95 53q5 3 10 0" fill="none" stroke="#FFF" stroke-opacity=".16" stroke-width="1"/>
+    <path d="M87 74q-5 34-5 68M113 74q5 34 5 68" fill="none" stroke="#FFF" stroke-opacity=".08" stroke-width="1"/>
+    <path d="M100 100v70" fill="none" stroke="#000" stroke-opacity=".2" stroke-width="1"/>
+    <circle cx="100" cy="35" r="3.6" fill="url(#look7gold)" opacity=".92"/>
+    <path d="M100 39v6" stroke="url(#look7gold)" stroke-width="1.4" opacity=".8"/>
+    
+  </g>
+    <path d="M128 62Q162 120 158 210L146 206Q150 130 124 80Z" fill="url(#look7dup)" opacity=".55"/>
+    <path d="M72 60Q88 74 100 74Q112 74 128 60L146 228Q100 242 54 228Z" fill="url(#look7fab)"/><path d="M72 60Q88 74 100 74Q112 74 128 60L146 228Q100 242 54 228Z" fill="url(#look7shade)" opacity=".45"/><path d="M72 60Q88 74 100 74Q112 74 128 60L146 228Q100 242 54 228Z" fill="url(#look7sheen)" opacity=".85"/><path d="M72 60Q88 74 100 74Q112 74 128 60L146 228Q100 242 54 228Z" fill="url(#look7weave)" opacity=".5"/><path d="M70 62Q54 72 48 106L60 110Q66 82 80 74Z" fill="url(#look7fab)"/><path d="M130 62Q146 72 152 106L140 110Q134 82 120 74Z" fill="url(#look7fab)"/><path d="M78 62Q100 88 122 62" fill="none" stroke="url(#look7gold)" stroke-width="1.5"/><path d="M56 214Q100 230 144 214" fill="none" stroke="url(#look7gold)" stroke-width="1.1" opacity=".85"/><path d="M100 74V232" fill="none" stroke="#FFF" stroke-opacity="0.24" stroke-width="0.9" stroke-linecap="round"/><path d="M86 78Q72 150 68 232" fill="none" stroke="#FFF" stroke-opacity="0.18" stroke-width="0.9" stroke-linecap="round"/><path d="M114 78Q128 150 132 232" fill="none" stroke="#FFF" stroke-opacity="0.18" stroke-width="0.9" stroke-linecap="round"/><path d="M93 76Q82 152 80 232" fill="none" stroke="#000" stroke-opacity="0.14" stroke-width="1.1" stroke-linecap="round"/><path d="M107 76Q118 152 120 232" fill="none" stroke="#000" stroke-opacity="0.14" stroke-width="1.1" stroke-linecap="round"/><path d="M86 234L90 360H70L68 234Z" fill="#9C5068"/><path d="M114 234L110 360H130L132 234Z" fill="#9C5068"/><path d="M86 234L90 360H70L68 234Z" fill="url(#look7shade)" opacity=".22"/><path d="M114 234L110 360H130L132 234Z" fill="url(#look7shade)" opacity=".22"/><path d="M80 244L78 358" fill="none" stroke="#FFF" stroke-opacity=".18" stroke-width="1"/><path d="M120 244L122 358" fill="none" stroke="#FFF" stroke-opacity=".18" stroke-width="1"/><path d="M80 244L78 358" fill="none" stroke="#FFF" stroke-opacity="0.18" stroke-width="0.9" stroke-linecap="round"/><path d="M120 244L122 358" fill="none" stroke="#FFF" stroke-opacity="0.18" stroke-width="0.9" stroke-linecap="round"/><path d="M58 154v10M142 154v10" stroke="url(#look7gold)" stroke-width="1" opacity=".7"/>
+    <g transform="translate(86 194) rotate(-8) scale(1.15)" fill="none" stroke="#C9A45E" stroke-width="1.15" stroke-linecap="round" opacity=".95">
+    <path d="M0 4C1 12 1 20 3 28"/>
+    <path d="M1 13c-5-2-8-7-8-13 6 1 9 6 8 13z" fill="#C9A45E" fill-opacity=".22"/>
+    <path d="M2 21c5-2 8-7 8-13-6 1-9 6-8 13z" fill="#C9A45E" fill-opacity=".22"/>
+    <g transform="translate(1 -5)">
+      <circle cx="0" cy="-6.4" r="2.9"/>
+      <circle cx="6.1" cy="-2" r="2.9"/>
+      <circle cx="3.8" cy="5.2" r="2.9"/>
+      <circle cx="-3.8" cy="5.2" r="2.9"/>
+      <circle cx="-6.1" cy="-2" r="2.9"/>
+      <circle r="2.2" fill="#C9A45E" fill-opacity=".55"/>
+    </g>
+    <g fill="#C9A45E" opacity=".8"><circle cx="10" cy="6" r=".8"/><circle cx="-7" cy="11" r=".7"/></g>
+  </g><g transform="translate(116 166) rotate(4) scale(0.85)" fill="none" stroke="#C9A45E" stroke-width="1.15" stroke-linecap="round" opacity=".95">
+    <path d="M0 4C1 12 1 20 3 28"/>
+    <path d="M1 13c-5-2-8-7-8-13 6 1 9 6 8 13z" fill="#C9A45E" fill-opacity=".22"/>
+    <path d="M2 21c5-2 8-7 8-13-6 1-9 6-8 13z" fill="#C9A45E" fill-opacity=".22"/>
+    <g transform="translate(1 -5)">
+      <circle cx="0" cy="-6.4" r="2.9"/>
+      <circle cx="6.1" cy="-2" r="2.9"/>
+      <circle cx="3.8" cy="5.2" r="2.9"/>
+      <circle cx="-3.8" cy="5.2" r="2.9"/>
+      <circle cx="-6.1" cy="-2" r="2.9"/>
+      <circle r="2.2" fill="#C9A45E" fill-opacity=".55"/>
+    </g>
+    <g fill="#C9A45E" opacity=".8"><circle cx="10" cy="6" r=".8"/><circle cx="-7" cy="11" r=".7"/></g>
+  </g><g fill="#C9A45E" opacity=".65"><circle cx="78" cy="136" r="1"/><circle cx="120" cy="162" r="1"/><circle cx="100" cy="206" r="1"/></g><path d="M70 74Q100 96 130 76L134 92Q100 110 66 90Z" fill="url(#look7dup)" opacity=".7"/><path d="M70 74Q100 96 130 76" fill="none" stroke="url(#look7gold)" stroke-width="1" opacity=".7"/><g fill="none" stroke="#C9A45E" stroke-width="1.1" opacity=".95">
+    <path d="M92 56q8 16 16 0"/>
+    <path d="M95 60q5 9 10 0" stroke-width=".7" opacity=".8"/>
+    <circle cx="100" cy="70" r="2.2" fill="#C9A45E" stroke="none"/>
+    <circle cx="100" cy="70" r="3.8" stroke-width=".6" opacity=".7"/>
+  </g>
+  </g>
+<rect x="36" y="38.50000000000001" width="828" height="1023" fill="none" stroke="rgba(74,42,32,.35)" stroke-width="1"/>
+<g fill="#5C2032" font-family="Georgia, 'Times New Roman', serif">
+    <text x="67.5" y="1039" font-size="19" letter-spacing="5" opacity=".9">NOORI PARADISE</text>
+    <text x="67.5" y="1067.5" font-size="13" letter-spacing="5" opacity=".55">LOOK 07 · ATELIER ILLUSTRATION</text>
+  </g>
+  <path d="M67.5 997.2h90" stroke="#C9A45E" stroke-width="1" opacity=".7"/>
+<rect width="900" height="1100" filter="url(#look7grain)" opacity=".5" style="mix-blend-mode:soft-light"/>
+<rect width="900" height="1100" fill="none" stroke="#F3E7E9" stroke-opacity=".2" stroke-width="2"/>
+</svg>
